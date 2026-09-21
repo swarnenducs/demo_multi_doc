@@ -40,7 +40,7 @@ py-modules = ["agent", "cli", "flow_debug", "graph", "server", "tools"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["core*", "mcp*", "models*", "nodes*", "services*", "storage*"]
+include = ["core*", "agent_mcp*", "models*", "nodes*", "services*", "storage*"]
 
 [dependency-groups]
 dev = ["pytest>=8.0.0"]

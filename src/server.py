@@ -9,7 +9,7 @@ from fastmcp.dependencies import Depends
 
 from core.context import ApplicationContext, build_application_context
 from core.dependencies import get_app_context, set_app_context
-from mcp.base import BaseAgentMCPServer
+from agent_mcp.base import BaseAgentMCPServer
 from models.mcp_responses import GenerateDocumentResponse, McpHealthResponse
 from storage.db import build_database_url, engine_uses_mssql
 
