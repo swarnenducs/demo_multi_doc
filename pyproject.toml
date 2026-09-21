@@ -1,0 +1,46 @@
+[project]
+name = "document-processing-mcp"
+version = "0.1.0"
+description = "Document LangGraph pipeline exposed as FastMCP (self-contained; own prompts/)"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "dynaconf>=3.2.0",
+    "python-dotenv>=1.0.0",
+    "typing-extensions>=4.0.0",
+    "pyyaml>=6.0.0",
+    "httpx>=0.28.0",
+    "langchain-core>=0.3.0",
+    "langchain>=0.3.0",
+    "langchain-openai>=0.3.0",
+    "langchain-groq>=0.3.0",
+    "langgraph>=0.4.0",
+    "python-docx>=1.1.0",
+    "lxml>=5.0.0",
+    "fastmcp>=3.4.6",
+    "sqlalchemy>=2.0.0",
+    "pymssql>=2.2.11",
+    "pyodbc>=5.0.0",
+    "azure-storage-blob>=12.19.0",
+]
+
+[project.scripts]
+document-process-mcp = "document_processing_mcp.server:main"
+doc-mcp-document = "document_processing_mcp.server:main"
+doc-agent = "document_processing_mcp.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.9.3,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["pytest>=8.0.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "tests"]
+

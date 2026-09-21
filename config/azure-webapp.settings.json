@@ -1,0 +1,177 @@
+[
+  {
+    "name": "PYTHONUNBUFFERED",
+    "value": "1",
+    "slotSetting": false
+  },
+  {
+    "name": "WEBSITES_PORT",
+    "value": "8001",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCUMENT_MCP_HOST",
+    "value": "0.0.0.0",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCUMENT_MCP_PORT",
+    "value": "8001",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCUMENT_MCP_TRANSPORT",
+    "value": "http",
+    "slotSetting": false
+  },
+  {
+    "name": "STORAGE_BASE_PATH",
+    "value": "/home/data/storage",
+    "slotSetting": false
+  },
+  {
+    "name": "SQLITE_DATABASE_PATH",
+    "value": "/home/data/app.db",
+    "slotSetting": false
+  },
+  {
+    "name": "JOBS_SUBDIRECTORY",
+    "value": "jobs",
+    "slotSetting": false
+  },
+  {
+    "name": "MAX_UPLOAD_MB",
+    "value": "25",
+    "slotSetting": false
+  },
+  {
+    "name": "FILE_STORAGE_BACKEND",
+    "value": "azure_blob",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SQL_SERVER",
+    "value": "<sql-server>.database.windows.net",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SQL_USER",
+    "value": "adminsql",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SQL_DATABASE",
+    "value": "ipp-app-db",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SQL_DIALECT",
+    "value": "pyodbc",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SQL_ODBC_DRIVER",
+    "value": "ODBC Driver 18 for SQL Server",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_SQL_PASSWORD",
+    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/azure-sql-password/)",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_BLOB_CONTAINER",
+    "value": "docuploadsolution",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_BLOB_PREFIX",
+    "value": "jobs",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_STORAGE_CONNECTION_STRING",
+    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/<storage-connection-string-secret>/)",
+    "slotSetting": false
+  },
+  {
+    "name": "MAPPER_MODEL_ID",
+    "value": "azure_openai:<mapper-deployment>",
+    "slotSetting": false
+  },
+  {
+    "name": "VALIDATOR_MODEL_ID",
+    "value": "azure_openai:<validator-deployment>",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_API_KEY",
+    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/<azure-openai-api-key-secret>/)",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_ENDPOINT",
+    "value": "https://<azure-openai-resource>.cognitiveservices.azure.com",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_API_VERSION",
+    "value": "2024-12-01-preview",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_DEPLOYMENT",
+    "value": "<mapper-deployment>",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_OPENAI_VALIDATOR_DEPLOYMENT",
+    "value": "<validator-deployment>",
+    "slotSetting": false
+  },
+  {
+    "name": "OPENAI_API_KEY",
+    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/<openai-api-key-secret>/)",
+    "slotSetting": false
+  },
+  {
+    "name": "GROQ_API_KEY",
+    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/<groq-api-key-secret>/)",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCUMENT_MAX_RETRIES",
+    "value": "1",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCUMENT_VALIDATION_THRESHOLD",
+    "value": "0.7",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCUMENT_LLM_OPTIMIZATION_ENABLED",
+    "value": "false",
+    "slotSetting": false
+  },
+  {
+    "name": "DOCUMENT_MARKER_SYNTHESIS_ENABLED",
+    "value": "true",
+    "slotSetting": false
+  },
+  {
+    "name": "VALIDATOR_MAX_TOKENS",
+    "value": "1024",
+    "slotSetting": false
+  },
+  {
+    "name": "TRACE_LOGGING_ENABLED",
+    "value": "true",
+    "slotSetting": false
+  },
+  {
+    "name": "TRACE_LOG_MAX_CHARS",
+    "value": "16000",
+    "slotSetting": false
+  }
+]

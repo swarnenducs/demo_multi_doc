@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "description": "Document mapper optimisation (A′ + B). Loaded only when optimized_flow is on.",
+  "enabled_by_default": false,
+  "complexity": {
+    "easy_max_placeholders": 12,
+    "easy_max_tables": 1,
+    "hard_if_percent_tokens": true,
+    "hard_if_duplicate_placeholders": true,
+    "hard_if_header_only_tables": true,
+    "use_json_byte_size": false
+  },
+  "models": {
+    "mapper_easy": "openai:gpt-4.1-mini",
+    "mapper_hard": "openai:gpt-5-mini",
+    "mapper_retry": "openai:gpt-5-mini",
+    "mapper_final": "openai:gpt-5",
+    "validator": "openai:gpt-4.1-mini",
+    "validator_retry": null
+  },
+  "retries": {
+    "max_retries": 2,
+    "validation_threshold": 0.7
+  },
+  "extras": {
+    "skip_extraction_critic_when_easy": true,
+    "regex_leftover_check_before_judge": true,
+    "skip_document_critic_when_easy_and_no_leftovers": false
+  }
+}

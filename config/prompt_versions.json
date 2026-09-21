@@ -1,0 +1,24 @@
+{
+  "prompts": {
+    "mapper": {
+      "required_version": "1.0.0",
+      "path": "mapper.{version}.yml"
+    },
+    "validator": {
+      "required_version": "1.0.0",
+      "path": "validator.{version}.yml"
+    },
+    "extraction_validator": {
+      "required_version": "1.0.0",
+      "path": "extraction_validator.{version}.yml"
+    },
+    "agent": {
+      "required_version": "1.0.0",
+      "path": "agent.{version}.yml"
+    },
+    "marker_synthesizer": {
+      "required_version": "1.0.0",
+      "path": "marker_synthesizer.{version}.yml"
+    }
+  }
+}

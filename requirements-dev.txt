@@ -1,0 +1,3 @@
+# Dev extras for this component
+-e .
+pytest>=8.0.0
