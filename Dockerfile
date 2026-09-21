@@ -11,3 +11,6 @@ ENV DOCUMENT_MCP_HOST=0.0.0.0 DOCUMENT_MCP_PORT=8001
 ENV DOCUMENT_PROMPTS_DIR=/app/prompts
 EXPOSE 8001
 CMD ["python", "run.py", "--transport", "http", "--host", "0.0.0.0", "--port", "8001"]
+
+
+# End of Dockerfile
