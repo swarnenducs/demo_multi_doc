@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from document_processing_mcp.services.placeholders import find_placeholders
+from services.placeholders import find_placeholders
 
 
 def test_angle_xx_percent_phrase() -> None:

@@ -4,10 +4,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from document_processing_mcp.core.settings import reload_settings
-from document_processing_mcp.services.document_job import materialize_input
-from document_processing_mcp.storage.blob_store import BlobStore, is_blob_ref
-from document_processing_mcp.storage.job_sink import JobSink
+from core.settings import reload_settings
+from services.document_job import materialize_input
+from storage.blob_store import BlobStore, is_blob_ref
+from storage.job_sink import JobSink
 
 
 def _isolate_local(tmp_path: Path, monkeypatch) -> None:
@@ -26,7 +26,7 @@ def _isolate_local(tmp_path: Path, monkeypatch) -> None:
 
 def test_blob_paths_segregate_upload_and_download(tmp_path: Path, monkeypatch) -> None:
     _isolate_local(tmp_path, monkeypatch)
-    from document_processing_mcp.storage.blob_store import blob_job_root, blob_name_for_job
+    from storage.blob_store import blob_job_root, blob_name_for_job
 
     assert blob_job_root("abc") == "jobs/abc"
     assert blob_name_for_job("abc", "template.docx", kind="upload") == (
@@ -128,7 +128,7 @@ def test_materialize_input_copies_local_file(tmp_path: Path, monkeypatch) -> Non
 
 
 def test_format_elapsed_ms() -> None:
-    from document_processing_mcp.services.document_job import format_elapsed_ms
+    from services.document_job import format_elapsed_ms
 
     assert format_elapsed_ms(450) == "0.5 s"
     assert format_elapsed_ms(12_300) == "12.3 s"
@@ -155,8 +155,8 @@ def test_job_sink_completes_accuracy(tmp_path: Path, monkeypatch) -> None:
         },
         xid="xid-1",
     )
-    from document_processing_mcp.storage.db import get_session_factory
-    from document_processing_mcp.storage.sql_models import DocumentAccuracyReport, DocumentJob
+    from storage.db import get_session_factory
+    from storage.sql_models import DocumentAccuracyReport, DocumentJob
 
     session = get_session_factory()()
     try:

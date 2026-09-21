@@ -1,8 +1,7 @@
 # Pinned runtime deps for this folder as a standalone project.
 #   python -m pip install -r requirements.txt
 # Regenerate from the monorepo root:
-#   uv export --package document-processing-mcp --no-dev --no-hashes --output-file document-processing-mcp/requirements.txt
--e .
+# Runtime dependencies for the flat src layout are installed directly from this file.
 aiofile==3.12.3
     # via py-key-value-aio
 annotated-types==0.7.0

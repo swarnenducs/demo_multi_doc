@@ -7,10 +7,10 @@ from pathlib import Path
 
 from docx import Document
 
-from document_processing_mcp.models.schemas import MappingResult
-from document_processing_mcp.services.document_generator import generate_styled_document
-from document_processing_mcp.services.style_extractor import extract_word_styles
-from document_processing_mcp.services.table_fill_infer import infer_table_fills, match_header_to_field
+from models.schemas import MappingResult
+from services.document_generator import generate_styled_document
+from services.style_extractor import extract_word_styles
+from services.table_fill_infer import infer_table_fills, match_header_to_field
 
 
 def _empty_price_list_docx(path: Path) -> Path:

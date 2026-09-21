@@ -5,9 +5,9 @@ from __future__ import annotations
 import zipfile
 from pathlib import Path
 
-from document_processing_mcp.models.schemas import MappingResult
-from document_processing_mcp.services.document_generator import generate_styled_document
-from document_processing_mcp.services.style_extractor import extract_word_styles
+from models.schemas import MappingResult
+from services.document_generator import generate_styled_document
+from services.style_extractor import extract_word_styles
 
 GPO = (
     Path(__file__).resolve().parents[2]

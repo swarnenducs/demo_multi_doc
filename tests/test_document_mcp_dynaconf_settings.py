@@ -5,8 +5,8 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-from document_processing_mcp.core.dynaconf_loader import _export_scalar, apply_dynaconf_from_env_files
-from document_processing_mcp.core.settings import reload_settings
+from core.dynaconf_loader import _export_scalar, apply_dynaconf_from_env_files
+from core.settings import reload_settings
 
 
 def test_export_scalar_does_not_override_process_env(monkeypatch) -> None:

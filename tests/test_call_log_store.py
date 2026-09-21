@@ -4,9 +4,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from document_processing_mcp.core.settings import reload_settings
-from document_processing_mcp.storage.call_log_store import CallLogStore
-from document_processing_mcp.storage.db import build_database_url, engine_uses_mssql
+from core.settings import reload_settings
+from storage.call_log_store import CallLogStore
+from storage.db import build_database_url, engine_uses_mssql
 
 
 def _isolate_local(tmp_path: Path, monkeypatch) -> None:
@@ -55,8 +55,8 @@ def test_trace_rows_round_trip(tmp_path: Path, monkeypatch) -> None:
 
 def test_trace_log_writes_through_the_store(tmp_path: Path, monkeypatch) -> None:
     _isolate_local(tmp_path, monkeypatch)
-    from document_processing_mcp.core.request_context import reset_xid, set_xid
-    from document_processing_mcp.services.trace_log import log_event
+    from core.request_context import reset_xid, set_xid
+    from services.trace_log import log_event
 
     token = set_xid("xid-trace")
     try:

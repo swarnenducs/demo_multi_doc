@@ -4,10 +4,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from document_processing_mcp.graph import _bump_retry
-from document_processing_mcp.models.schemas import ContentBlock, ExtractedTemplate
-from document_processing_mcp.nodes.pipeline import extract_styles_node
-from document_processing_mcp.services.llm_optimization import (
+from graph import _bump_retry
+from models.schemas import ContentBlock, ExtractedTemplate
+from nodes.pipeline import extract_styles_node
+from services.llm_optimization import (
     load_optimization_config,
     pick_mapper_model_id,
     pick_validator_model_id,

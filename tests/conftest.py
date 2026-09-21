@@ -33,7 +33,7 @@ def no_llm_api_keys_in_tests(monkeypatch):
 @pytest.fixture(autouse=True)
 def local_sqlite_only(tmp_path, monkeypatch):
     """Pin storage and the SQLAlchemy engine to tmp_path SQLite, never Azure SQL."""
-    from document_processing_mcp.core.settings import reload_settings
+    from core.settings import reload_settings
 
     monkeypatch.setenv("STORAGE_BASE_PATH", str(tmp_path / "storage"))
     monkeypatch.setenv("SQLITE_DATABASE_PATH", str(tmp_path / "app.db"))

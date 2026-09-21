@@ -2,16 +2,16 @@
 
 from __future__ import annotations
 
-from document_processing_mcp.models.schemas import ExtractedTemplate, FieldMapping, MappingResult
-from document_processing_mcp.nodes.pipeline import enrich_master_data_node
-from document_processing_mcp.services.master_data import (
+from models.schemas import ExtractedTemplate, FieldMapping, MappingResult
+from nodes.pipeline import enrich_master_data_node
+from services.master_data import (
     LEGAL_DEPARTMENT_BLOCK,
     LEGAL_PLACEHOLDER,
     SALES_EXCELLENCE_BLOCK,
     SALES_PLACEHOLDER,
     merge_master_data_into_mapping,
 )
-from document_processing_mcp.storage.db import ensure_schema
+from storage.db import ensure_schema
 
 
 def test_enrich_loads_sql_when_override_false() -> None:
@@ -104,7 +104,7 @@ def test_merge_master_data_into_mapping() -> None:
 
 
 def test_graph_includes_enrich_node() -> None:
-    from document_processing_mcp.graph import build_graph
+    from graph import build_graph
 
     graph = build_graph()
     assert "enrich_master_data" in graph.nodes

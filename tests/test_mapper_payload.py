@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 
-from document_processing_mcp.services.field_mapper import _dumps_compact, _summarize_json_for_mapper
+from services.field_mapper import _dumps_compact, _summarize_json_for_mapper
 
 
 def test_summarize_json_samples_long_object_arrays() -> None:

@@ -13,7 +13,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 COMPONENT_LABEL="document-processing-mcp"
 WEBSITES_PORT="8001"
 STARTUP="python run.py"
-STARTUP_ALT="python -m document_processing_mcp.server --transport http --host 0.0.0.0 --port 8001"
+STARTUP_ALT="python run.py --transport http --host 0.0.0.0 --port 8001"
 OUT="${1:-$ROOT/dist/azure-webapp.zip}"
 if [[ "$OUT" != /* ]]; then
   OUT="$PWD/$OUT"
@@ -75,7 +75,7 @@ Startup command:
 Alternate:
   ${STARTUP_ALT}
 
-requirements.txt includes '-e .' so pip installs this package from pyproject.toml.
+requirements.txt contains the pinned runtime dependencies for the flat src layout.
 Do not put .env in the zip. Use App settings + Key Vault references.
 EOF
 

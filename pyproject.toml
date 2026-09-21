@@ -26,13 +26,21 @@ dependencies = [
 ]
 
 [project.scripts]
-document-process-mcp = "document_processing_mcp.server:main"
-doc-mcp-document = "document_processing_mcp.server:main"
-doc-agent = "document_processing_mcp.cli:main"
+document-process-mcp = "server:main"
+doc-mcp-document = "server:main"
+doc-agent = "cli:main"
 
 [build-system]
-requires = ["uv_build>=0.9.3,<0.10.0"]
-build-backend = "uv_build"
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["agent", "cli", "flow_debug", "graph", "server", "tools"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["core*", "mcp*", "models*", "nodes*", "services*", "storage*"]
 
 [dependency-groups]
 dev = ["pytest>=8.0.0"]

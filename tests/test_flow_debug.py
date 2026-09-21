@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from document_processing_mcp.flow_debug import (
+from flow_debug import (
     flow_breakpoint,
     flow_enabled,
     install_flow_logger,

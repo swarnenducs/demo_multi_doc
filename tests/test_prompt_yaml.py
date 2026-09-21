@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from document_processing_mcp.services.prompts.loader import (
+from services.prompts.loader import (
     chat_prompt_from_yaml,
     load_prompt_yaml,
     prompts_dir,
@@ -78,7 +78,7 @@ def test_marker_synthesizer_yaml_loads() -> None:
 def test_agent_yaml_is_chat_prompt_template() -> None:
     from langchain_core.prompts import ChatPromptTemplate
 
-    from document_processing_mcp.services.prompts import build_agent_prompt, format_agent_system_prompt
+    from services.prompts import build_agent_prompt, format_agent_system_prompt
 
     prompt = build_agent_prompt()
     assert isinstance(prompt, ChatPromptTemplate)

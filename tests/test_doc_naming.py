@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from document_processing_mcp.services.naming import (
+from services.naming import (
     build_contract_output_filename,
     job_id_short_suffix,
     sanitize_template_stem,

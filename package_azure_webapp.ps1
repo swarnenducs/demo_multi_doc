@@ -16,7 +16,7 @@ $Root = $PSScriptRoot
 $ComponentLabel = "document-processing-mcp"
 $WebsitesPort = "8001"
 $Startup = "python run.py"
-$StartupAlt = "python -m document_processing_mcp.server --transport http --host 0.0.0.0 --port 8001"
+$StartupAlt = "python run.py --transport http --host 0.0.0.0 --port 8001"
 $Out = if ($args.Count -ge 1 -and $args[0]) { $args[0] } else { Join-Path $Root "dist\azure-webapp.zip" }
 $Out = [System.IO.Path]::GetFullPath($Out)
 
@@ -61,7 +61,7 @@ Startup command:
 Alternate:
   $StartupAlt
 
-requirements.txt includes '-e .' so pip installs this package from pyproject.toml.
+requirements.txt contains the pinned runtime dependencies for the flat src layout.
 Do not put .env in the zip. Use App settings + Key Vault references.
 "@ | Set-Content -Path (Join-Path $Stage "STARTUP.txt") -Encoding utf8
 

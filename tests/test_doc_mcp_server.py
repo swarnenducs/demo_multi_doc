@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import asyncio
 
-from document_processing_mcp.server import DocumentProcessMCP
+from server import DocumentProcessMCP
 from doc_mcp_helpers import call_tool, list_tool_names
 
 
@@ -16,14 +16,14 @@ def test_document_mcp_lists_tools() -> None:
 
 
 def test_document_mcp_health() -> None:
-    from document_processing_mcp.core.dependencies import get_app_context
-    from document_processing_mcp.storage.blob_store import BlobStore
+    from core.dependencies import get_app_context
+    from storage.blob_store import BlobStore
 
     server = DocumentProcessMCP(host="127.0.0.1", port=18001)
     payload = asyncio.run(call_tool(server, "health"))
     assert isinstance(payload, dict)
     assert payload["ok"] is True
-    from document_processing_mcp.models.mcp_responses import McpHealthResponse
+    from models.mcp_responses import McpHealthResponse
 
     McpHealthResponse.model_validate(payload)
     assert payload["mcp"] == "document_process_mcp"

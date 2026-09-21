@@ -8,14 +8,14 @@ from types import SimpleNamespace
 import pytest
 from docx import Document
 
-from document_processing_mcp.services.library_match import (
+from services.library_match import (
     find_closest_library_template,
     similarity_score,
 )
-from document_processing_mcp.services.marker_apply import apply_marker_plan, normalize_marker_token
-from document_processing_mcp.services.placeholders import template_has_markers
-from document_processing_mcp.services.prompts.loader import load_prompt_yaml
-from document_processing_mcp.services.style_extractor import extract_word_styles
+from services.marker_apply import apply_marker_plan, normalize_marker_token
+from services.placeholders import template_has_markers
+from services.prompts.loader import load_prompt_yaml
+from services.style_extractor import extract_word_styles
 from doc_sample_template import build_sample_template
 
 
@@ -75,7 +75,7 @@ def test_similarity_prefers_overlapping_prose() -> None:
 
 
 def test_closest_library_skips_self(tmp_path: Path, monkeypatch) -> None:
-    from document_processing_mcp.services import library_match
+    from services import library_match
 
     monkeypatch.setattr(library_match, "library_template_dirs", lambda: [tmp_path])
     a = tmp_path / "a.docx"
@@ -103,8 +103,8 @@ def test_marker_synthesizer_prompt_versioned() -> None:
 def test_unmarked_template_fails_when_synthesis_disabled(
     tmp_path: Path, monkeypatch
 ) -> None:
-    from document_processing_mcp.core.settings import reload_settings
-    from document_processing_mcp.nodes.pipeline import synthesize_markers_node
+    from core.settings import reload_settings
+    from nodes.pipeline import synthesize_markers_node
 
     monkeypatch.setenv("DOCUMENT_MARKER_SYNTHESIS_ENABLED", "false")
     reload_settings()
@@ -130,8 +130,8 @@ def test_unmarked_template_fails_when_synthesis_disabled(
 def test_tagged_template_skips_synthesis_when_disabled(
     tmp_path: Path, monkeypatch
 ) -> None:
-    from document_processing_mcp.core.settings import reload_settings
-    from document_processing_mcp.nodes.pipeline import synthesize_markers_node
+    from core.settings import reload_settings
+    from nodes.pipeline import synthesize_markers_node
 
     monkeypatch.setenv("DOCUMENT_NON_TAG_ENABLED", "false")
     monkeypatch.delenv("DOCUMENT_MARKER_SYNTHESIS_ENABLED", raising=False)
@@ -153,8 +153,8 @@ def test_tagged_template_skips_synthesis_when_disabled(
 
 
 def test_synthesize_markers_if_needed_respects_env(tmp_path: Path, monkeypatch) -> None:
-    from document_processing_mcp.core.settings import reload_settings
-    from document_processing_mcp.services.marker_synthesizer import (
+    from core.settings import reload_settings
+    from services.marker_synthesizer import (
         synthesize_markers_if_needed,
     )
 

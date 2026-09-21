@@ -11,7 +11,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 
 def main() -> int:
-    from document_processing_mcp.server import main as server_main
+    from server import main as server_main
 
     return int(server_main() or 0)
 
