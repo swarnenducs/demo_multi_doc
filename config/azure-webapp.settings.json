@@ -51,17 +51,17 @@
   },
   {
     "name": "AZURE_SQL_SERVER",
-    "value": "<sql-server>.database.windows.net",
+    "value": "sqlippnenonprodgenaidev.database.windows.net",
     "slotSetting": false
   },
   {
     "name": "AZURE_SQL_USER",
-    "value": "adminsql",
+    "value": "sqladmin",
     "slotSetting": false
   },
   {
     "name": "AZURE_SQL_DATABASE",
-    "value": "ipp-app-db",
+    "value": "genaidb",
     "slotSetting": false
   },
   {
@@ -76,12 +76,12 @@
   },
   {
     "name": "AZURE_SQL_PASSWORD",
-    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/azure-sql-password/)",
+    "value": "@Microsoft.KeyVault(SecretUri=https://kvippnenonproddev.vault.azure.net/secrets/sqlippnenonprodgenaidev-admin-password/)",
     "slotSetting": false
   },
   {
     "name": "AZURE_BLOB_CONTAINER",
-    "value": "docuploadsolution",
+    "value": "ipp-default-template",
     "slotSetting": false
   },
   {
@@ -91,27 +91,47 @@
   },
   {
     "name": "AZURE_STORAGE_CONNECTION_STRING",
-    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/<storage-connection-string-secret>/)",
+    "value": "",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_STORAGE_ACCOUNT_NAME",
+    "value": "stippnenonprodgenaidev",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_BLOB_CUSTOM_CONTAINER",
+    "value": "ipp-custom-templates",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_KEY_VAULT_URL",
+    "value": "https://kvippnenonproddev.vault.azure.net",
+    "slotSetting": false
+  },
+  {
+    "name": "AZURE_KEY_VAULT_HEALTH_SECRET",
+    "value": "sqlippnenonprodgenaidev-admin-password",
     "slotSetting": false
   },
   {
     "name": "MAPPER_MODEL_ID",
-    "value": "azure_openai:<mapper-deployment>",
+    "value": "azure_openai:gpt-4.1",
     "slotSetting": false
   },
   {
     "name": "VALIDATOR_MODEL_ID",
-    "value": "azure_openai:<validator-deployment>",
+    "value": "azure_openai:gpt-5.4-mini",
     "slotSetting": false
   },
   {
     "name": "AZURE_OPENAI_API_KEY",
-    "value": "@Microsoft.KeyVault(SecretUri=https://<vault-name>.vault.azure.net/secrets/<azure-openai-api-key-secret>/)",
+    "value": "@Microsoft.KeyVault(SecretUri=https://kvippnenonproddev.vault.azure.net/secrets/azure-openai-api-key/)",
     "slotSetting": false
   },
   {
     "name": "AZURE_OPENAI_ENDPOINT",
-    "value": "https://<azure-openai-resource>.cognitiveservices.azure.com",
+    "value": "https://ipp-ai-foundry-resource.openai.azure.com/",
     "slotSetting": false
   },
   {
@@ -121,12 +141,12 @@
   },
   {
     "name": "AZURE_OPENAI_DEPLOYMENT",
-    "value": "<mapper-deployment>",
+    "value": "gpt-4.1",
     "slotSetting": false
   },
   {
     "name": "AZURE_OPENAI_VALIDATOR_DEPLOYMENT",
-    "value": "<validator-deployment>",
+    "value": "gpt-5.4-mini",
     "slotSetting": false
   },
   {

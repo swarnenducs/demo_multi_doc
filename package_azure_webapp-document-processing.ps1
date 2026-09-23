@@ -15,12 +15,12 @@ $ErrorActionPreference = "Stop"
 $Root = $PSScriptRoot
 $ComponentLabel = "document-processing-mcp"
 $WebsitesPort = "8001"
-$Startup = "python run.py"
+$Startup = "bash startup.sh"
 $StartupAlt = "python run.py --transport http --host 0.0.0.0 --port 8001"
 $Out = if ($args.Count -ge 1 -and $args[0]) { $args[0] } else { Join-Path $Root "dist\azure-webapp.zip" }
 $Out = [System.IO.Path]::GetFullPath($Out)
 
-@(".env.example", "Dockerfile", "pyproject.toml", "README.md", "requirements.txt", "run.py", "src", "prompts", "config") | ForEach-Object {
+@(".env.example", "Dockerfile", "pyproject.toml", "README.md", "requirements.txt", "run.py", "run.sh", "startup.sh", "src", "prompts", "config") | ForEach-Object {
   if (-not (Test-Path (Join-Path $Root $_))) { throw "Missing required deployment input: $_" }
 }
 
@@ -66,8 +66,21 @@ Do not put .env in the zip. Use App settings + Key Vault references.
 "@ | Set-Content -Path (Join-Path $Stage "STARTUP.txt") -Encoding utf8
 
 if (Test-Path $Out) { Remove-Item -Force $Out }
+Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
-[System.IO.Compression.ZipFile]::CreateFromDirectory($Stage, $Out)
+# Build entries manually with forward slashes: ZipFile.CreateFromDirectory() emits
+# backslash-separated entry names on Windows, which Linux App Service (Oryx/Kudu)
+# does not treat as nested directories, breaking package discovery at build time.
+$stageFull = (Resolve-Path $Stage).Path
+$archive = [System.IO.Compression.ZipFile]::Open($Out, [System.IO.Compression.ZipArchiveMode]::Create)
+try {
+  Get-ChildItem -Path $Stage -Recurse -File -Force | ForEach-Object {
+    $relative = $_.FullName.Substring($stageFull.Length).TrimStart('\', '/') -replace '\\', '/'
+    [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive, $_.FullName, $relative, [System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
+  }
+} finally {
+  $archive.Dispose()
+}
 } finally {
   if (Test-Path $Stage) { Remove-Item -Recurse -Force $Stage }
 }
