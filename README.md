@@ -1,4 +1,4 @@
-# document-processing-mcp
+# demo_multi_doc
 
 Document LangGraph pipeline as FastMCP (`:8001`). Local mode = SQLite + files; Azure mode = SQL + Blob (env only).
 
