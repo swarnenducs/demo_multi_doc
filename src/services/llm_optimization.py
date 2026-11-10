@@ -15,7 +15,8 @@ from models.schemas import ExtractedTemplate, GenerationResult
 
 logger = logging.getLogger(__name__)
 
-_PACKAGE_ROOT = Path(__file__).resolve().parents[3]
+# Flat layout: <repo>/src/services/llm_optimization.py → parents[2] == repo root
+_PACKAGE_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CONFIG_PATH = _PACKAGE_ROOT / "config" / "llm_optimization.json"
 
 _cache: tuple[str, float, "OptimizationConfig"] | None = None

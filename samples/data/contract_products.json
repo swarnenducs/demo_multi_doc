@@ -1,0 +1,22 @@
+{
+  "DATE": "2026-07-13",
+  "accountName": "Acme Industrial Partners LLC",
+  "products": [
+    {
+      "productCode": "ABC-1001",
+      "productDescription": "Industrial Grade Steel Bolt 10mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": "$1.25",
+      "marketPrice": "$1.50"
+    },
+    {
+      "productCode": "ABC-1002",
+      "productDescription": "Stainless Steel Washer 8mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": "$0.35",
+      "marketPrice": "$0.45"
+    }
+  ]
+}

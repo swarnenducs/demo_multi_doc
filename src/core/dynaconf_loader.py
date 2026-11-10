@@ -14,7 +14,8 @@ from typing import Any
 from dynaconf import Dynaconf
 
 # core/ → package → src → document-processing-mcp folder
-_PACKAGE_ROOT = Path(__file__).resolve().parents[3]
+# Flat layout: <repo>/src/core/dynaconf_loader.py → parents[2] == repo root
+_PACKAGE_ROOT = Path(__file__).resolve().parents[2]
 _MONOREPO_ROOT = _PACKAGE_ROOT.parent
 
 

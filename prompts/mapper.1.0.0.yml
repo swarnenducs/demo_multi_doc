@@ -30,6 +30,9 @@ system: |
      from JSON arrays (e.g. products[]). Map headers PRODUCT CODE → productCode,
      PRODUCT DESCRIPTION → productDescription, EA/UOM → eaUom, UOM → uom,
      PRICE/EA → eaPrice, PRICE/UOM → marketPrice. Rationale ≤12 words.
+  6. If the rows are grouped in an object of arrays (e.g. products = {{"Tier1": [...],
+     "Tier2": [...], ...}}, any number of groups), set array_json_path to the parent
+     object (products), NOT one group. One table copy is rendered per group.
 
 human: |
   TEMPLATE PLACEHOLDERS found:

@@ -1,0 +1,86 @@
+{
+  "DATE": "2026-07-13",
+  "accountName": "Acme Industrial Partners LLC",
+  "products": [
+    {
+      "productCode": "ABC-1001",
+      "productDescription": "Industrial Grade Steel Bolt 10mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": "$1.25",
+      "marketPrice": "$1.50"
+    },
+    {
+      "productCode": "ABC-1002",
+      "productDescription": "Stainless Steel Washer 8mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": "$0.35",
+      "marketPrice": "$0.45"
+    },
+    {
+      "productCode": "ABC-1003",
+      "productDescription": "Heavy Duty Hex Nut 12mm",
+      "eaUom": "EA",
+      "uom": "CASE",
+      "eaPrice": "$0.60",
+      "marketPrice": "$0.75"
+    },
+    {
+      "productCode": "ABC-1004",
+      "productDescription": "Galvanized Steel Pipe 2 inch",
+      "eaUom": "EA",
+      "uom": "EACH",
+      "eaPrice": "$14.99",
+      "marketPrice": "$17.50"
+    },
+    {
+      "productCode": "ABC-1005",
+      "productDescription": "Aluminum Angle Bracket 4 inch",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": "$3.20",
+      "marketPrice": "$3.85"
+    },
+    {
+      "productCode": "ABC-1006",
+      "productDescription": "Copper Wire Connector 16 AWG",
+      "eaUom": "EA",
+      "uom": "PACK",
+      "eaPrice": "$0.95",
+      "marketPrice": "$1.10"
+    },
+    {
+      "productCode": "ABC-1007",
+      "productDescription": "PVC Pipe Fitting 3 inch Elbow",
+      "eaUom": "EA",
+      "uom": "CASE",
+      "eaPrice": "$2.75",
+      "marketPrice": "$3.25"
+    },
+    {
+      "productCode": "ABC-1008",
+      "productDescription": "Rubber Gasket Seal 5mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": "$0.50",
+      "marketPrice": "$0.65"
+    },
+    {
+      "productCode": "ABC-1009",
+      "productDescription": "Carbon Steel Threaded Rod 1 meter",
+      "eaUom": "EA",
+      "uom": "EACH",
+      "eaPrice": "$8.40",
+      "marketPrice": "$9.99"
+    },
+    {
+      "productCode": "ABC-1010",
+      "productDescription": "Brass Fitting Adapter 1 inch",
+      "eaUom": "EA",
+      "uom": "PACK",
+      "eaPrice": "$5.60",
+      "marketPrice": "$6.75"
+    }
+  ]
+}

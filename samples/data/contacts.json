@@ -1,0 +1,39 @@
+{
+  "contacts": [
+    {
+      "name": "Acme Industrial Partners LLC",
+      "phone": "555-0100",
+      "email": "contracts@acme-industrial.example",
+      "accountName": "Acme Industrial Partners LLC",
+      "defaultAgreementNumber": "1234567890"
+    },
+    {
+      "name": "John Smith",
+      "phone": "555-0101",
+      "email": "john.smith@example.com",
+      "accountName": "John Smith Consulting",
+      "defaultAgreementNumber": "2001002003"
+    },
+    {
+      "name": "Jane Doe",
+      "phone": "555-0102",
+      "email": "jane.doe@example.com",
+      "accountName": "Doe Logistics Inc",
+      "defaultAgreementNumber": "3001003004"
+    },
+    {
+      "name": "Globex Corporation",
+      "phone": "555-0199",
+      "email": "legal@globex.example",
+      "accountName": "Globex Corporation",
+      "defaultAgreementNumber": "4001004005"
+    },
+    {
+      "name": "AVC",
+      "phone": "337744",
+      "email": "contracts@avc.example",
+      "accountName": "AVC",
+      "defaultAgreementNumber": "337744"
+    }
+  ]
+}

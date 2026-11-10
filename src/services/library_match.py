@@ -16,7 +16,8 @@ _TOKEN = re.compile(r"[a-z]{3,}")
 
 
 def _repo_root() -> Path:
-    return Path(__file__).resolve().parents[4]
+    # Flat layout: <repo>/src/services/library_match.py → parents[2] == repo
+    return Path(__file__).resolve().parents[2]
 
 
 def library_template_dirs() -> list[Path]:

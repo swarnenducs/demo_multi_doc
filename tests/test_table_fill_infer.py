@@ -43,7 +43,7 @@ def test_match_gpo_price_headers() -> None:
 def test_infer_and_generate_fills_empty_price_table(tmp_path: Path) -> None:
     template = _empty_price_list_docx(tmp_path / "price.docx")
     extracted = extract_word_styles(template)
-    repo = Path(__file__).resolve().parents[2]
+    repo = Path(__file__).resolve().parents[1]
     data = json.loads((repo / "samples" / "data" / "gpo_agreement.json").read_text(encoding="utf-8"))
     fills = infer_table_fills(extracted, data)
     assert fills
@@ -61,3 +61,7 @@ def test_infer_and_generate_fills_empty_price_table(tmp_path: Path) -> None:
     assert "ABC-1001" in text
     assert "Industrial Grade Steel Bolt 10mm" in text
     assert "ABC-1002" in text
+    # Prices render with the product currency symbol ($ / USD → $).
+    assert "$1.25" in text
+    assert "$1.5" in text or "$1.50" in text
+    assert data["products"][0].get("currency") == "$"

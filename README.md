@@ -1,13 +1,14 @@
 # document-processing-mcp
 
-Document LangGraph pipeline as FastMCP (`:8001`). Copy this folder to its own git.
+Document LangGraph pipeline as FastMCP (`:8001`). Local mode = SQLite + files; Azure mode = SQL + Blob (env only).
 
 ```bash
-python -m pip install -r requirements.txt
-python -m pip install -r requirements-dev.txt   # pytest
-cp .env.example .env
-./run.sh
-# tests: pytest
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt -r requirements-dev.txt -r UI/requirements.txt
+cp .env.example .env   # set OPENAI_API_KEY; keep FILE_STORAGE_BACKEND=local
+./run_local.sh         # MCP :8001 + Gradio UI :7860
 
-# or: python run.py --transport http --host 127.0.0.1 --port 8001
+# MCP only:  ./run.sh
+# UI only:   ./UI/run.sh
+# tests:     .venv/bin/pytest
 ```

@@ -20,8 +20,9 @@ from services.prompts.prompt_versions import (
 
 
 def _component_root() -> Path:
-    """document-processing-mcp/ (contains prompts/ + src/)."""
-    return Path(__file__).resolve().parents[4]
+    """Repo root (contains prompts/ + config/ + src/)."""
+    # Flat layout: <repo>/src/services/prompts/loader.py → parents[3] == repo
+    return Path(__file__).resolve().parents[3]
 
 
 _COMPONENT_ROOT = _component_root()

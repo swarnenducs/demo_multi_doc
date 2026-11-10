@@ -253,10 +253,13 @@ def _llm_mapping(
             )
         )
 
+    from services.table_fill_infer import is_row_group
+
     valid_fills: list[TableFillPlan] = []
     for plan in result.table_fills:
         arr = _resolve_path(data, plan.array_json_path)
-        if isinstance(arr, list) and arr and isinstance(arr[0], dict) and plan.columns:
+        is_rows = isinstance(arr, list) and arr and isinstance(arr[0], dict)
+        if (is_rows or is_row_group(arr)) and plan.columns:
             valid_fills.append(
                 TableFillPlan(
                     table_index=plan.table_index,

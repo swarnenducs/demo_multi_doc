@@ -13,7 +13,8 @@ from core.dynaconf_loader import apply_dynaconf_from_env_files
 
 apply_dynaconf_from_env_files()
 
-_PACKAGE_ROOT = Path(__file__).resolve().parents[3]
+# Flat layout: <repo>/src/core/settings.py → parents[2] == repo root
+_PACKAGE_ROOT = Path(__file__).resolve().parents[2]
 
 
 def force_sqlite_from_env() -> bool:

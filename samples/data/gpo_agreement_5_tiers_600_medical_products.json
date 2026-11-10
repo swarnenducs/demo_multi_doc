@@ -1,0 +1,5524 @@
+{
+  "source_context": {
+    "agreement_number": "1234567890",
+    "template_name": "GPO Agreement w. LOC",
+    "generated_date": "2026-07-13"
+  },
+  "system_instruction": {
+    "legal_notice_block": {
+      "override": false,
+      "placeholder": "Legal_Department_Master_Data",
+      "value": "Legal Department\n200 Connell Drive, Suite 1000\nBerkeley Heights, NJ 07922\nE-mail: pmo@ABCTec.com"
+    },
+    "sales_notice_block": {
+      "override": false,
+      "placeholder": "Sales_Excellence_Master_Data",
+      "value": "Sales Excellence\n200 Connell Drive, Suite 1000\nBerkeley Heights, NJ 07922\nE-mail: pmo@ABCTec.com"
+    }
+  },
+  "agreement": {
+    "gpo_name": "Acme Industrial Partners LLC",
+    "gpo_address": "1200 Commerce Plaza, Chicago, IL 60601",
+    "idn_name": "ACM-MCC",
+    "effective_date": "2026-09-01",
+    "signature_deadline_date": "2026-12-31",
+    "initial_term_years": 3,
+    "administrative_fee_percent": 3.0,
+    "include_sole_commitment_clause": true,
+    "sole_commitment_percent": 93
+  },
+  "gpo_notice_contact": {
+    "attn": "John Anderson",
+    "address": "1200 Commerce Plaza, Chicago, IL 60601",
+    "fax": "312-555-1001",
+    "email": "contracts@acmepartners.com"
+  },
+  "gpo_signatory": {
+    "name": "John Anderson",
+    "title": "Vice President Strategic Sourcing",
+    "date": "2026-08-15"
+  },
+  "abctec_legal_entity": {
+    "legal_name": "ABCTec Inc.",
+    "address": "200 Connell Drive, Suite 1000, Berkeley Heights, NJ 07922",
+    "notice_email": "pnc@abctec.com"
+  },
+  "authorized_distributors": [
+    {
+      "name": "ABC Medical Distribution"
+    },
+    {
+      "name": "National Healthcare Supplies"
+    }
+  ],
+  "loc": {
+    "include_loc": true,
+    "participating_idn_or_facility_member_name": "Midwest Care Network",
+    "commitment_percent": 93,
+    "member_address": "500 Healthcare Drive",
+    "city_state_zip": "Indianapolis, IN 46204",
+    "entity_code": "MCN001",
+    "signatory": {
+      "name": "Sarah Mitchell",
+      "title": "Director of Supply Chain",
+      "phone_number": "317-555-2121",
+      "email_address": "sarah.mitchell@mcn.org",
+      "date_signed": "2026-08-20"
+    }
+  },
+  "facilities": [
+    {
+      "facility_initials": "MCH",
+      "facility_name": "Midwest Community Hospital",
+      "address": "500 Healthcare Drive",
+      "city": "Indianapolis",
+      "state": "IN",
+      "zip": "46204",
+      "idn_relationship": "Owned",
+      "class_of_trade": "Hospital",
+      "baseline_utilization": "12000 Units",
+      "abcec_customer_number": "CUST10001",
+      "gpo_membership_id": "GPO20001",
+      "entity_code": "MCH001",
+      "abctec_dollar_spend": 450000,
+      "total_category_spend": 500000
+    },
+    {
+      "facility_initials": "RMC",
+      "facility_name": "Regional Medical Center",
+      "address": "100 Medical Parkway",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60615",
+      "idn_relationship": "Managed",
+      "class_of_trade": "Hospital",
+      "baseline_utilization": "8000 Units",
+      "abcec_customer_number": "CUST10002",
+      "gpo_membership_id": "GPO20002",
+      "entity_code": "RMC001",
+      "abctec_dollar_spend": 275000,
+      "total_category_spend": 300000
+    }
+  ],
+  "reference_data": {
+    "cot_definitions": [
+      {
+        "cot_code": "HSP",
+        "class_of_trade_name": "Hospital",
+        "abctec_Definition": "Licensed acute care healthcare facility"
+      }
+    ]
+  },
+  "products": {
+    "Tire1": [
+      {
+        "productCode": "ABC-MED-T1-0001",
+        "productDescription": "Nitrile Examination Gloves - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 5.7,
+        "marketPrice": 6.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0002",
+        "productDescription": "Latex-Free Surgical Gloves - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 7.83,
+        "marketPrice": 9.2,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0003",
+        "productDescription": "Sterile Gauze Pads - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 9.96,
+        "marketPrice": 11.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0004",
+        "productDescription": "Nonwoven Dressing - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 12.09,
+        "marketPrice": 14.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0005",
+        "productDescription": "Adhesive Wound Dressing - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 14.22,
+        "marketPrice": 17.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0006",
+        "productDescription": "Transparent Film Dressing - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 16.35,
+        "marketPrice": 18.8,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0007",
+        "productDescription": "Medical Surgical Mask - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 18.48,
+        "marketPrice": 21.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0008",
+        "productDescription": "Respirator Mask - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 20.61,
+        "marketPrice": 24.73,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0009",
+        "productDescription": "Disposable Isolation Gown - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 22.74,
+        "marketPrice": 27.86,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0010",
+        "productDescription": "Sterile Surgical Gown - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 24.87,
+        "marketPrice": 31.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0011",
+        "productDescription": "Disposable Shoe Cover - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 27.0,
+        "marketPrice": 31.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0012",
+        "productDescription": "Bouffant Surgical Cap - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 29.13,
+        "marketPrice": 34.23,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0013",
+        "productDescription": "Alcohol Prep Pad - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 31.26,
+        "marketPrice": 37.51,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0014",
+        "productDescription": "Antiseptic Swabstick - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 33.39,
+        "marketPrice": 40.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0015",
+        "productDescription": "Disposable Underpad - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 35.52,
+        "marketPrice": 44.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0016",
+        "productDescription": "Absorbent Cotton Roll - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 37.65,
+        "marketPrice": 43.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0017",
+        "productDescription": "Elastic Compression Bandage - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 39.78,
+        "marketPrice": 46.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0018",
+        "productDescription": "Medical Adhesive Tape - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 41.91,
+        "marketPrice": 50.29,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0019",
+        "productDescription": "Sterile Cotton Applicator - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 44.04,
+        "marketPrice": 53.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0020",
+        "productDescription": "Disposable Patient Drape - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 46.17,
+        "marketPrice": 57.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0021",
+        "productDescription": "Nitrile Examination Gloves - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 6.44,
+        "marketPrice": 7.41,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0022",
+        "productDescription": "Latex-Free Surgical Gloves - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 8.85,
+        "marketPrice": 10.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0023",
+        "productDescription": "Sterile Gauze Pads - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 11.25,
+        "marketPrice": 13.5,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0024",
+        "productDescription": "Nonwoven Dressing - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 13.66,
+        "marketPrice": 16.73,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0025",
+        "productDescription": "Adhesive Wound Dressing - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 16.07,
+        "marketPrice": 20.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0026",
+        "productDescription": "Transparent Film Dressing - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 18.48,
+        "marketPrice": 21.25,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0027",
+        "productDescription": "Medical Surgical Mask - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 20.88,
+        "marketPrice": 24.53,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0028",
+        "productDescription": "Respirator Mask - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 23.29,
+        "marketPrice": 27.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0029",
+        "productDescription": "Disposable Isolation Gown - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 25.7,
+        "marketPrice": 31.48,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0030",
+        "productDescription": "Sterile Surgical Gown - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 28.1,
+        "marketPrice": 35.12,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0031",
+        "productDescription": "Disposable Shoe Cover - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 30.51,
+        "marketPrice": 35.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0032",
+        "productDescription": "Bouffant Surgical Cap - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 32.92,
+        "marketPrice": 38.68,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0033",
+        "productDescription": "Alcohol Prep Pad - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 35.32,
+        "marketPrice": 42.38,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0034",
+        "productDescription": "Antiseptic Swabstick - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 37.73,
+        "marketPrice": 46.22,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0035",
+        "productDescription": "Disposable Underpad - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 40.14,
+        "marketPrice": 50.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0036",
+        "productDescription": "Absorbent Cotton Roll - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 42.54,
+        "marketPrice": 48.92,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0037",
+        "productDescription": "Elastic Compression Bandage - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 44.95,
+        "marketPrice": 52.82,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0038",
+        "productDescription": "Medical Adhesive Tape - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 47.36,
+        "marketPrice": 56.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0039",
+        "productDescription": "Sterile Cotton Applicator - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 49.77,
+        "marketPrice": 60.97,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0040",
+        "productDescription": "Disposable Patient Drape - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 52.17,
+        "marketPrice": 65.21,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0041",
+        "productDescription": "Nitrile Examination Gloves - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 7.18,
+        "marketPrice": 8.26,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0042",
+        "productDescription": "Latex-Free Surgical Gloves - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 9.87,
+        "marketPrice": 11.6,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0043",
+        "productDescription": "Sterile Gauze Pads - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 12.55,
+        "marketPrice": 15.06,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0044",
+        "productDescription": "Nonwoven Dressing - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 15.23,
+        "marketPrice": 18.66,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0045",
+        "productDescription": "Adhesive Wound Dressing - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 17.92,
+        "marketPrice": 22.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0046",
+        "productDescription": "Transparent Film Dressing - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 20.6,
+        "marketPrice": 23.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0047",
+        "productDescription": "Medical Surgical Mask - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 23.28,
+        "marketPrice": 27.35,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0048",
+        "productDescription": "Respirator Mask - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 25.97,
+        "marketPrice": 31.16,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0049",
+        "productDescription": "Disposable Isolation Gown - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 28.65,
+        "marketPrice": 35.1,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0050",
+        "productDescription": "Sterile Surgical Gown - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 31.34,
+        "marketPrice": 39.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0051",
+        "productDescription": "Disposable Shoe Cover - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 34.02,
+        "marketPrice": 39.12,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0052",
+        "productDescription": "Bouffant Surgical Cap - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 36.7,
+        "marketPrice": 43.12,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0053",
+        "productDescription": "Alcohol Prep Pad - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 39.39,
+        "marketPrice": 47.27,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0054",
+        "productDescription": "Antiseptic Swabstick - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 42.07,
+        "marketPrice": 51.54,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0055",
+        "productDescription": "Disposable Underpad - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 44.76,
+        "marketPrice": 55.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0056",
+        "productDescription": "Absorbent Cotton Roll - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 47.44,
+        "marketPrice": 54.56,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0057",
+        "productDescription": "Elastic Compression Bandage - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 50.12,
+        "marketPrice": 58.89,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0058",
+        "productDescription": "Medical Adhesive Tape - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 52.81,
+        "marketPrice": 63.37,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0059",
+        "productDescription": "Sterile Cotton Applicator - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 55.49,
+        "marketPrice": 67.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0060",
+        "productDescription": "Disposable Patient Drape - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 58.17,
+        "marketPrice": 72.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0061",
+        "productDescription": "Nitrile Examination Gloves - Extra Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 7.92,
+        "marketPrice": 9.11,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0062",
+        "productDescription": "Latex-Free Surgical Gloves - Extra Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 10.88,
+        "marketPrice": 12.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0063",
+        "productDescription": "Sterile Gauze Pads - Extra Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 13.84,
+        "marketPrice": 16.61,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0064",
+        "productDescription": "Nonwoven Dressing - Extra Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 16.81,
+        "marketPrice": 20.59,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0065",
+        "productDescription": "Adhesive Wound Dressing - Extra Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 19.77,
+        "marketPrice": 24.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0066",
+        "productDescription": "Transparent Film Dressing - Extra Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 22.73,
+        "marketPrice": 26.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0067",
+        "productDescription": "Medical Surgical Mask - Extra Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 25.69,
+        "marketPrice": 30.19,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0068",
+        "productDescription": "Respirator Mask - Extra Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 28.65,
+        "marketPrice": 34.38,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0069",
+        "productDescription": "Disposable Isolation Gown - Extra Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 31.61,
+        "marketPrice": 38.72,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0070",
+        "productDescription": "Sterile Surgical Gown - Extra Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 34.57,
+        "marketPrice": 43.21,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0071",
+        "productDescription": "Disposable Shoe Cover - Extra Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 37.53,
+        "marketPrice": 43.16,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0072",
+        "productDescription": "Bouffant Surgical Cap - Extra Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 40.49,
+        "marketPrice": 47.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0073",
+        "productDescription": "Alcohol Prep Pad - Extra Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 43.45,
+        "marketPrice": 52.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0074",
+        "productDescription": "Antiseptic Swabstick - Extra Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 46.41,
+        "marketPrice": 56.85,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0075",
+        "productDescription": "Disposable Underpad - Extra Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 49.37,
+        "marketPrice": 61.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0076",
+        "productDescription": "Absorbent Cotton Roll - Extra Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 52.33,
+        "marketPrice": 60.18,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0077",
+        "productDescription": "Elastic Compression Bandage - Extra Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 55.29,
+        "marketPrice": 64.97,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0078",
+        "productDescription": "Medical Adhesive Tape - Extra Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 58.25,
+        "marketPrice": 69.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0079",
+        "productDescription": "Sterile Cotton Applicator - Extra Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 61.22,
+        "marketPrice": 74.99,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0080",
+        "productDescription": "Disposable Patient Drape - Extra Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 64.18,
+        "marketPrice": 80.23,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0081",
+        "productDescription": "Nitrile Examination Gloves - 5 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 8.66,
+        "marketPrice": 9.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0082",
+        "productDescription": "Latex-Free Surgical Gloves - 5 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 11.9,
+        "marketPrice": 13.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0083",
+        "productDescription": "Sterile Gauze Pads - 5 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 15.14,
+        "marketPrice": 18.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0084",
+        "productDescription": "Nonwoven Dressing - 5 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 18.38,
+        "marketPrice": 22.52,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0085",
+        "productDescription": "Adhesive Wound Dressing - 5 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 21.61,
+        "marketPrice": 27.01,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0086",
+        "productDescription": "Transparent Film Dressing - 5 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 24.85,
+        "marketPrice": 28.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0087",
+        "productDescription": "Medical Surgical Mask - 5 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 28.09,
+        "marketPrice": 33.01,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0088",
+        "productDescription": "Respirator Mask - 5 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 31.33,
+        "marketPrice": 37.6,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0089",
+        "productDescription": "Disposable Isolation Gown - 5 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 34.56,
+        "marketPrice": 42.34,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0090",
+        "productDescription": "Sterile Surgical Gown - 5 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 37.8,
+        "marketPrice": 47.25,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0091",
+        "productDescription": "Disposable Shoe Cover - 5 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 41.04,
+        "marketPrice": 47.2,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0092",
+        "productDescription": "Bouffant Surgical Cap - 5 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 44.28,
+        "marketPrice": 52.03,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0093",
+        "productDescription": "Alcohol Prep Pad - 5 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 47.52,
+        "marketPrice": 57.02,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0094",
+        "productDescription": "Antiseptic Swabstick - 5 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 50.75,
+        "marketPrice": 62.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0095",
+        "productDescription": "Disposable Underpad - 5 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 53.99,
+        "marketPrice": 67.49,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0096",
+        "productDescription": "Absorbent Cotton Roll - 5 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 57.23,
+        "marketPrice": 65.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0097",
+        "productDescription": "Elastic Compression Bandage - 5 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 60.47,
+        "marketPrice": 71.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0098",
+        "productDescription": "Medical Adhesive Tape - 5 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 63.7,
+        "marketPrice": 76.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0099",
+        "productDescription": "Sterile Cotton Applicator - 5 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 66.94,
+        "marketPrice": 82.0,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0100",
+        "productDescription": "Disposable Patient Drape - 5 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 70.18,
+        "marketPrice": 87.73,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0101",
+        "productDescription": "Nitrile Examination Gloves - 10 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 9.4,
+        "marketPrice": 10.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0102",
+        "productDescription": "Latex-Free Surgical Gloves - 10 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 12.92,
+        "marketPrice": 15.18,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0103",
+        "productDescription": "Sterile Gauze Pads - 10 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 16.43,
+        "marketPrice": 19.72,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0104",
+        "productDescription": "Nonwoven Dressing - 10 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 19.95,
+        "marketPrice": 24.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0105",
+        "productDescription": "Adhesive Wound Dressing - 10 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 23.46,
+        "marketPrice": 29.33,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0106",
+        "productDescription": "Transparent Film Dressing - 10 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 26.98,
+        "marketPrice": 31.03,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0107",
+        "productDescription": "Medical Surgical Mask - 10 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 30.49,
+        "marketPrice": 35.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0108",
+        "productDescription": "Respirator Mask - 10 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 34.01,
+        "marketPrice": 40.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0109",
+        "productDescription": "Disposable Isolation Gown - 10 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 37.52,
+        "marketPrice": 45.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0110",
+        "productDescription": "Sterile Surgical Gown - 10 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 41.04,
+        "marketPrice": 51.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0111",
+        "productDescription": "Disposable Shoe Cover - 10 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 44.55,
+        "marketPrice": 51.23,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0112",
+        "productDescription": "Bouffant Surgical Cap - 10 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 48.06,
+        "marketPrice": 56.47,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0113",
+        "productDescription": "Alcohol Prep Pad - 10 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 51.58,
+        "marketPrice": 61.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0114",
+        "productDescription": "Antiseptic Swabstick - 10 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 55.09,
+        "marketPrice": 67.49,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0115",
+        "productDescription": "Disposable Underpad - 10 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 58.61,
+        "marketPrice": 73.26,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0116",
+        "productDescription": "Absorbent Cotton Roll - 10 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 62.12,
+        "marketPrice": 71.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0117",
+        "productDescription": "Elastic Compression Bandage - 10 cm",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 65.64,
+        "marketPrice": 77.13,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0118",
+        "productDescription": "Medical Adhesive Tape - 10 cm",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 69.15,
+        "marketPrice": 82.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0119",
+        "productDescription": "Sterile Cotton Applicator - 10 cm",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 72.67,
+        "marketPrice": 89.02,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T1-0120",
+        "productDescription": "Disposable Patient Drape - 10 cm",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 76.18,
+        "marketPrice": 95.23,
+        "currency": "$"
+      }
+    ],
+    "Tire2": [
+      {
+        "productCode": "ABC-MED-T2-0001",
+        "productDescription": "Disposable Syringe - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 9.2,
+        "marketPrice": 10.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0002",
+        "productDescription": "Hypodermic Needle - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 11.33,
+        "marketPrice": 13.31,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0003",
+        "productDescription": "Safety Injection Needle - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 13.46,
+        "marketPrice": 16.15,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0004",
+        "productDescription": "Peripheral IV Catheter - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 15.59,
+        "marketPrice": 19.1,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0005",
+        "productDescription": "IV Extension Set - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 17.72,
+        "marketPrice": 22.15,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0006",
+        "productDescription": "IV Administration Set - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 19.85,
+        "marketPrice": 22.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0007",
+        "productDescription": "Blood Collection Tube - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 21.98,
+        "marketPrice": 25.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0008",
+        "productDescription": "Vacuum Blood Collection Needle - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 24.11,
+        "marketPrice": 28.93,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0009",
+        "productDescription": "Luer Lock Connector - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 26.24,
+        "marketPrice": 32.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0010",
+        "productDescription": "Three-Way Stopcock - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 28.37,
+        "marketPrice": 35.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0011",
+        "productDescription": "Needle-Free Valve - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 30.5,
+        "marketPrice": 35.07,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0012",
+        "productDescription": "Enteral Feeding Syringe - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 32.63,
+        "marketPrice": 38.34,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0013",
+        "productDescription": "Urine Collection Bag - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 34.76,
+        "marketPrice": 41.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0014",
+        "productDescription": "Foley Catheter - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 36.89,
+        "marketPrice": 45.19,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0015",
+        "productDescription": "Suction Catheter - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 39.02,
+        "marketPrice": 48.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0016",
+        "productDescription": "Nasogastric Feeding Tube - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 41.15,
+        "marketPrice": 47.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0017",
+        "productDescription": "Oxygen Nasal Cannula - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 43.28,
+        "marketPrice": 50.85,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0018",
+        "productDescription": "Oxygen Face Mask - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 45.41,
+        "marketPrice": 54.49,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0019",
+        "productDescription": "Nebulizer Kit - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 47.54,
+        "marketPrice": 58.24,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0020",
+        "productDescription": "Tracheostomy Tube Holder - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 49.67,
+        "marketPrice": 62.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0021",
+        "productDescription": "Disposable Syringe - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 10.4,
+        "marketPrice": 11.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0022",
+        "productDescription": "Hypodermic Needle - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 12.8,
+        "marketPrice": 15.04,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0023",
+        "productDescription": "Safety Injection Needle - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 15.21,
+        "marketPrice": 18.25,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0024",
+        "productDescription": "Peripheral IV Catheter - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 17.62,
+        "marketPrice": 21.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0025",
+        "productDescription": "IV Extension Set - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 20.02,
+        "marketPrice": 25.02,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0026",
+        "productDescription": "IV Administration Set - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 22.43,
+        "marketPrice": 25.79,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0027",
+        "productDescription": "Blood Collection Tube - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 24.84,
+        "marketPrice": 29.19,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0028",
+        "productDescription": "Vacuum Blood Collection Needle - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 27.24,
+        "marketPrice": 32.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0029",
+        "productDescription": "Luer Lock Connector - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 29.65,
+        "marketPrice": 36.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0030",
+        "productDescription": "Three-Way Stopcock - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 32.06,
+        "marketPrice": 40.08,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0031",
+        "productDescription": "Needle-Free Valve - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 34.46,
+        "marketPrice": 39.63,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0032",
+        "productDescription": "Enteral Feeding Syringe - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 36.87,
+        "marketPrice": 43.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0033",
+        "productDescription": "Urine Collection Bag - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 39.28,
+        "marketPrice": 47.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0034",
+        "productDescription": "Foley Catheter - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 41.69,
+        "marketPrice": 51.07,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0035",
+        "productDescription": "Suction Catheter - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 44.09,
+        "marketPrice": 55.11,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0036",
+        "productDescription": "Nasogastric Feeding Tube - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 46.5,
+        "marketPrice": 53.47,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0037",
+        "productDescription": "Oxygen Nasal Cannula - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 48.91,
+        "marketPrice": 57.47,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0038",
+        "productDescription": "Oxygen Face Mask - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 51.31,
+        "marketPrice": 61.57,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0039",
+        "productDescription": "Nebulizer Kit - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 53.72,
+        "marketPrice": 65.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0040",
+        "productDescription": "Tracheostomy Tube Holder - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 56.13,
+        "marketPrice": 70.16,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0041",
+        "productDescription": "Disposable Syringe - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 11.59,
+        "marketPrice": 13.33,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0042",
+        "productDescription": "Hypodermic Needle - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 14.28,
+        "marketPrice": 16.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0043",
+        "productDescription": "Safety Injection Needle - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 16.96,
+        "marketPrice": 20.35,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0044",
+        "productDescription": "Peripheral IV Catheter - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 19.64,
+        "marketPrice": 24.06,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0045",
+        "productDescription": "IV Extension Set - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 22.33,
+        "marketPrice": 27.91,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0046",
+        "productDescription": "IV Administration Set - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 25.01,
+        "marketPrice": 28.76,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0047",
+        "productDescription": "Blood Collection Tube - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 27.69,
+        "marketPrice": 32.54,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0048",
+        "productDescription": "Vacuum Blood Collection Needle - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 30.38,
+        "marketPrice": 36.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0049",
+        "productDescription": "Luer Lock Connector - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 33.06,
+        "marketPrice": 40.5,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0050",
+        "productDescription": "Three-Way Stopcock - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 35.75,
+        "marketPrice": 44.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0051",
+        "productDescription": "Needle-Free Valve - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 38.43,
+        "marketPrice": 44.19,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0052",
+        "productDescription": "Enteral Feeding Syringe - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 41.11,
+        "marketPrice": 48.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0053",
+        "productDescription": "Urine Collection Bag - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 43.8,
+        "marketPrice": 52.56,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0054",
+        "productDescription": "Foley Catheter - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 46.48,
+        "marketPrice": 56.94,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0055",
+        "productDescription": "Suction Catheter - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 49.17,
+        "marketPrice": 61.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0056",
+        "productDescription": "Nasogastric Feeding Tube - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 51.85,
+        "marketPrice": 59.63,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0057",
+        "productDescription": "Oxygen Nasal Cannula - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 54.53,
+        "marketPrice": 64.07,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0058",
+        "productDescription": "Oxygen Face Mask - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 57.22,
+        "marketPrice": 68.66,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0059",
+        "productDescription": "Nebulizer Kit - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 59.9,
+        "marketPrice": 73.38,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0060",
+        "productDescription": "Tracheostomy Tube Holder - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 62.58,
+        "marketPrice": 78.22,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0061",
+        "productDescription": "Disposable Syringe - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 12.79,
+        "marketPrice": 14.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0062",
+        "productDescription": "Hypodermic Needle - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 15.75,
+        "marketPrice": 18.51,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0063",
+        "productDescription": "Safety Injection Needle - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 18.71,
+        "marketPrice": 22.45,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0064",
+        "productDescription": "Peripheral IV Catheter - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 21.67,
+        "marketPrice": 26.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0065",
+        "productDescription": "IV Extension Set - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 24.63,
+        "marketPrice": 30.79,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0066",
+        "productDescription": "IV Administration Set - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 27.59,
+        "marketPrice": 31.73,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0067",
+        "productDescription": "Blood Collection Tube - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 30.55,
+        "marketPrice": 35.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0068",
+        "productDescription": "Vacuum Blood Collection Needle - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 33.51,
+        "marketPrice": 40.21,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0069",
+        "productDescription": "Luer Lock Connector - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 36.47,
+        "marketPrice": 44.68,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0070",
+        "productDescription": "Three-Way Stopcock - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 39.43,
+        "marketPrice": 49.29,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0071",
+        "productDescription": "Needle-Free Valve - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 42.39,
+        "marketPrice": 48.75,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0072",
+        "productDescription": "Enteral Feeding Syringe - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 45.36,
+        "marketPrice": 53.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0073",
+        "productDescription": "Urine Collection Bag - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 48.32,
+        "marketPrice": 57.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0074",
+        "productDescription": "Foley Catheter - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 51.28,
+        "marketPrice": 62.82,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0075",
+        "productDescription": "Suction Catheter - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 54.24,
+        "marketPrice": 67.8,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0076",
+        "productDescription": "Nasogastric Feeding Tube - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 57.2,
+        "marketPrice": 65.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0077",
+        "productDescription": "Oxygen Nasal Cannula - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 60.16,
+        "marketPrice": 70.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0078",
+        "productDescription": "Oxygen Face Mask - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 63.12,
+        "marketPrice": 75.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0079",
+        "productDescription": "Nebulizer Kit - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 66.08,
+        "marketPrice": 80.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0080",
+        "productDescription": "Tracheostomy Tube Holder - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 69.04,
+        "marketPrice": 86.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0081",
+        "productDescription": "Disposable Syringe - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 13.98,
+        "marketPrice": 16.08,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0082",
+        "productDescription": "Hypodermic Needle - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 17.22,
+        "marketPrice": 20.23,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0083",
+        "productDescription": "Safety Injection Needle - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 20.46,
+        "marketPrice": 24.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0084",
+        "productDescription": "Peripheral IV Catheter - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 23.7,
+        "marketPrice": 29.03,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0085",
+        "productDescription": "IV Extension Set - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 26.93,
+        "marketPrice": 33.66,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0086",
+        "productDescription": "IV Administration Set - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 30.17,
+        "marketPrice": 34.7,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0087",
+        "productDescription": "Blood Collection Tube - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 33.41,
+        "marketPrice": 39.26,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0088",
+        "productDescription": "Vacuum Blood Collection Needle - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 36.65,
+        "marketPrice": 43.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0089",
+        "productDescription": "Luer Lock Connector - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 39.88,
+        "marketPrice": 48.85,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0090",
+        "productDescription": "Three-Way Stopcock - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 43.12,
+        "marketPrice": 53.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0091",
+        "productDescription": "Needle-Free Valve - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 46.36,
+        "marketPrice": 53.31,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0092",
+        "productDescription": "Enteral Feeding Syringe - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 49.6,
+        "marketPrice": 58.28,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0093",
+        "productDescription": "Urine Collection Bag - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 52.84,
+        "marketPrice": 63.41,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0094",
+        "productDescription": "Foley Catheter - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 56.07,
+        "marketPrice": 68.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0095",
+        "productDescription": "Suction Catheter - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 59.31,
+        "marketPrice": 74.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0096",
+        "productDescription": "Nasogastric Feeding Tube - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 62.55,
+        "marketPrice": 71.93,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0097",
+        "productDescription": "Oxygen Nasal Cannula - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 65.79,
+        "marketPrice": 77.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0098",
+        "productDescription": "Oxygen Face Mask - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 69.02,
+        "marketPrice": 82.82,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0099",
+        "productDescription": "Nebulizer Kit - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 72.26,
+        "marketPrice": 88.52,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0100",
+        "productDescription": "Tracheostomy Tube Holder - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 75.5,
+        "marketPrice": 94.38,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0101",
+        "productDescription": "Disposable Syringe - Sterile",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 15.18,
+        "marketPrice": 17.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0102",
+        "productDescription": "Hypodermic Needle - Sterile",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 18.69,
+        "marketPrice": 21.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0103",
+        "productDescription": "Safety Injection Needle - Sterile",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 22.21,
+        "marketPrice": 26.65,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0104",
+        "productDescription": "Peripheral IV Catheter - Sterile",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 25.72,
+        "marketPrice": 31.51,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0105",
+        "productDescription": "IV Extension Set - Sterile",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 29.24,
+        "marketPrice": 36.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0106",
+        "productDescription": "IV Administration Set - Sterile",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 32.75,
+        "marketPrice": 37.66,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0107",
+        "productDescription": "Blood Collection Tube - Sterile",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 36.27,
+        "marketPrice": 42.62,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0108",
+        "productDescription": "Vacuum Blood Collection Needle - Sterile",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 39.78,
+        "marketPrice": 47.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0109",
+        "productDescription": "Luer Lock Connector - Sterile",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 43.3,
+        "marketPrice": 53.04,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0110",
+        "productDescription": "Three-Way Stopcock - Sterile",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 46.81,
+        "marketPrice": 58.51,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0111",
+        "productDescription": "Needle-Free Valve - Sterile",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 50.32,
+        "marketPrice": 57.87,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0112",
+        "productDescription": "Enteral Feeding Syringe - Sterile",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 53.84,
+        "marketPrice": 63.26,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0113",
+        "productDescription": "Urine Collection Bag - Sterile",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 57.35,
+        "marketPrice": 68.82,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0114",
+        "productDescription": "Foley Catheter - Sterile",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 60.87,
+        "marketPrice": 74.57,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0115",
+        "productDescription": "Suction Catheter - Sterile",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 64.38,
+        "marketPrice": 80.47,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0116",
+        "productDescription": "Nasogastric Feeding Tube - Sterile",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 67.9,
+        "marketPrice": 78.08,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0117",
+        "productDescription": "Oxygen Nasal Cannula - Sterile",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 71.41,
+        "marketPrice": 83.91,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0118",
+        "productDescription": "Oxygen Face Mask - Sterile",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 74.93,
+        "marketPrice": 89.92,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0119",
+        "productDescription": "Nebulizer Kit - Sterile",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 78.44,
+        "marketPrice": 96.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T2-0120",
+        "productDescription": "Tracheostomy Tube Holder - Sterile",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 81.96,
+        "marketPrice": 102.45,
+        "currency": "$"
+      }
+    ],
+    "Tire3": [
+      {
+        "productCode": "ABC-MED-T3-0001",
+        "productDescription": "Digital Thermometer - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 12.7,
+        "marketPrice": 14.6,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0002",
+        "productDescription": "Pulse Oximeter Sensor - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 14.83,
+        "marketPrice": 17.43,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0003",
+        "productDescription": "ECG Electrode Pad - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 16.96,
+        "marketPrice": 20.35,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0004",
+        "productDescription": "ECG Lead Wire - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 19.09,
+        "marketPrice": 23.39,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0005",
+        "productDescription": "Blood Pressure Cuff - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 21.22,
+        "marketPrice": 26.52,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0006",
+        "productDescription": "Stethoscope Diaphragm Kit - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 23.35,
+        "marketPrice": 26.85,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0007",
+        "productDescription": "Spirometer Mouthpiece - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 25.48,
+        "marketPrice": 29.94,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0008",
+        "productDescription": "Peak Flow Meter - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 27.61,
+        "marketPrice": 33.13,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0009",
+        "productDescription": "Glucometer Test Strip - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 29.74,
+        "marketPrice": 36.43,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0010",
+        "productDescription": "Lancet Device - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 31.87,
+        "marketPrice": 39.84,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0011",
+        "productDescription": "Diagnostic Penlight - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 34.0,
+        "marketPrice": 39.1,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0012",
+        "productDescription": "Otoscope Speculum - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 36.13,
+        "marketPrice": 42.45,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0013",
+        "productDescription": "Ultrasound Gel - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 38.26,
+        "marketPrice": 45.91,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0014",
+        "productDescription": "Ultrasound Probe Cover - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 40.39,
+        "marketPrice": 49.48,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0015",
+        "productDescription": "Patient Monitor Cable - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 42.52,
+        "marketPrice": 53.15,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0016",
+        "productDescription": "Capnography Sampling Line - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 44.65,
+        "marketPrice": 51.35,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0017",
+        "productDescription": "EEG Electrode - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 46.78,
+        "marketPrice": 54.97,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0018",
+        "productDescription": "ECG Paper Roll - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 48.91,
+        "marketPrice": 58.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0019",
+        "productDescription": "Thermal Printer Paper - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 51.04,
+        "marketPrice": 62.52,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0020",
+        "productDescription": "Medical Battery Pack - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 53.17,
+        "marketPrice": 66.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0021",
+        "productDescription": "Digital Thermometer - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 14.35,
+        "marketPrice": 16.5,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0022",
+        "productDescription": "Pulse Oximeter Sensor - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 16.76,
+        "marketPrice": 19.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0023",
+        "productDescription": "ECG Electrode Pad - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 19.16,
+        "marketPrice": 22.99,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0024",
+        "productDescription": "ECG Lead Wire - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 21.57,
+        "marketPrice": 26.42,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0025",
+        "productDescription": "Blood Pressure Cuff - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 23.98,
+        "marketPrice": 29.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0026",
+        "productDescription": "Stethoscope Diaphragm Kit - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 26.39,
+        "marketPrice": 30.35,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0027",
+        "productDescription": "Spirometer Mouthpiece - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 28.79,
+        "marketPrice": 33.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0028",
+        "productDescription": "Peak Flow Meter - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 31.2,
+        "marketPrice": 37.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0029",
+        "productDescription": "Glucometer Test Strip - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 33.61,
+        "marketPrice": 41.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0030",
+        "productDescription": "Lancet Device - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 36.01,
+        "marketPrice": 45.01,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0031",
+        "productDescription": "Diagnostic Penlight - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 38.42,
+        "marketPrice": 44.18,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0032",
+        "productDescription": "Otoscope Speculum - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 40.83,
+        "marketPrice": 47.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0033",
+        "productDescription": "Ultrasound Gel - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 43.23,
+        "marketPrice": 51.88,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0034",
+        "productDescription": "Ultrasound Probe Cover - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 45.64,
+        "marketPrice": 55.91,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0035",
+        "productDescription": "Patient Monitor Cable - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 48.05,
+        "marketPrice": 60.06,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0036",
+        "productDescription": "Capnography Sampling Line - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 50.45,
+        "marketPrice": 58.02,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0037",
+        "productDescription": "EEG Electrode - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 52.86,
+        "marketPrice": 62.11,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0038",
+        "productDescription": "ECG Paper Roll - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 55.27,
+        "marketPrice": 66.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0039",
+        "productDescription": "Thermal Printer Paper - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 57.68,
+        "marketPrice": 70.66,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0040",
+        "productDescription": "Medical Battery Pack - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 60.08,
+        "marketPrice": 75.1,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0041",
+        "productDescription": "Digital Thermometer - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 16.0,
+        "marketPrice": 18.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0042",
+        "productDescription": "Pulse Oximeter Sensor - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 18.69,
+        "marketPrice": 21.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0043",
+        "productDescription": "ECG Electrode Pad - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 21.37,
+        "marketPrice": 25.64,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0044",
+        "productDescription": "ECG Lead Wire - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 24.05,
+        "marketPrice": 29.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0045",
+        "productDescription": "Blood Pressure Cuff - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 26.74,
+        "marketPrice": 33.42,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0046",
+        "productDescription": "Stethoscope Diaphragm Kit - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 29.42,
+        "marketPrice": 33.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0047",
+        "productDescription": "Spirometer Mouthpiece - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 32.1,
+        "marketPrice": 37.72,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0048",
+        "productDescription": "Peak Flow Meter - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 34.79,
+        "marketPrice": 41.75,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0049",
+        "productDescription": "Glucometer Test Strip - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 37.47,
+        "marketPrice": 45.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0050",
+        "productDescription": "Lancet Device - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 40.16,
+        "marketPrice": 50.2,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0051",
+        "productDescription": "Diagnostic Penlight - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 42.84,
+        "marketPrice": 49.27,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0052",
+        "productDescription": "Otoscope Speculum - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 45.52,
+        "marketPrice": 53.49,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0053",
+        "productDescription": "Ultrasound Gel - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 48.21,
+        "marketPrice": 57.85,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0054",
+        "productDescription": "Ultrasound Probe Cover - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 50.89,
+        "marketPrice": 62.34,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0055",
+        "productDescription": "Patient Monitor Cable - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 53.58,
+        "marketPrice": 66.97,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0056",
+        "productDescription": "Capnography Sampling Line - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 56.26,
+        "marketPrice": 64.7,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0057",
+        "productDescription": "EEG Electrode - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 58.94,
+        "marketPrice": 69.25,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0058",
+        "productDescription": "ECG Paper Roll - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 61.63,
+        "marketPrice": 73.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0059",
+        "productDescription": "Thermal Printer Paper - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 64.31,
+        "marketPrice": 78.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0060",
+        "productDescription": "Medical Battery Pack - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 66.99,
+        "marketPrice": 83.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0061",
+        "productDescription": "Digital Thermometer - Compact",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 17.65,
+        "marketPrice": 20.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0062",
+        "productDescription": "Pulse Oximeter Sensor - Compact",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 20.61,
+        "marketPrice": 24.22,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0063",
+        "productDescription": "ECG Electrode Pad - Compact",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 23.57,
+        "marketPrice": 28.28,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0064",
+        "productDescription": "ECG Lead Wire - Compact",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 26.54,
+        "marketPrice": 32.51,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0065",
+        "productDescription": "Blood Pressure Cuff - Compact",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 29.5,
+        "marketPrice": 36.88,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0066",
+        "productDescription": "Stethoscope Diaphragm Kit - Compact",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 32.46,
+        "marketPrice": 37.33,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0067",
+        "productDescription": "Spirometer Mouthpiece - Compact",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 35.42,
+        "marketPrice": 41.62,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0068",
+        "productDescription": "Peak Flow Meter - Compact",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 38.38,
+        "marketPrice": 46.06,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0069",
+        "productDescription": "Glucometer Test Strip - Compact",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 41.34,
+        "marketPrice": 50.64,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0070",
+        "productDescription": "Lancet Device - Compact",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 44.3,
+        "marketPrice": 55.38,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0071",
+        "productDescription": "Diagnostic Penlight - Compact",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 47.26,
+        "marketPrice": 54.35,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0072",
+        "productDescription": "Otoscope Speculum - Compact",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 50.22,
+        "marketPrice": 59.01,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0073",
+        "productDescription": "Ultrasound Gel - Compact",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 53.18,
+        "marketPrice": 63.82,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0074",
+        "productDescription": "Ultrasound Probe Cover - Compact",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 56.14,
+        "marketPrice": 68.77,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0075",
+        "productDescription": "Patient Monitor Cable - Compact",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 59.1,
+        "marketPrice": 73.88,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0076",
+        "productDescription": "Capnography Sampling Line - Compact",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 62.06,
+        "marketPrice": 71.37,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0077",
+        "productDescription": "EEG Electrode - Compact",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 65.02,
+        "marketPrice": 76.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0078",
+        "productDescription": "ECG Paper Roll - Compact",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 67.98,
+        "marketPrice": 81.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0079",
+        "productDescription": "Thermal Printer Paper - Compact",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 70.95,
+        "marketPrice": 86.91,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0080",
+        "productDescription": "Medical Battery Pack - Compact",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 73.91,
+        "marketPrice": 92.39,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0081",
+        "productDescription": "Digital Thermometer - Reusable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 19.3,
+        "marketPrice": 22.2,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0082",
+        "productDescription": "Pulse Oximeter Sensor - Reusable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 22.54,
+        "marketPrice": 26.48,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0083",
+        "productDescription": "ECG Electrode Pad - Reusable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 25.78,
+        "marketPrice": 30.94,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0084",
+        "productDescription": "ECG Lead Wire - Reusable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 29.02,
+        "marketPrice": 35.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0085",
+        "productDescription": "Blood Pressure Cuff - Reusable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 32.25,
+        "marketPrice": 40.31,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0086",
+        "productDescription": "Stethoscope Diaphragm Kit - Reusable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 35.49,
+        "marketPrice": 40.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0087",
+        "productDescription": "Spirometer Mouthpiece - Reusable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 38.73,
+        "marketPrice": 45.51,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0088",
+        "productDescription": "Peak Flow Meter - Reusable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 41.97,
+        "marketPrice": 50.36,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0089",
+        "productDescription": "Glucometer Test Strip - Reusable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 45.2,
+        "marketPrice": 55.37,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0090",
+        "productDescription": "Lancet Device - Reusable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 48.44,
+        "marketPrice": 60.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0091",
+        "productDescription": "Diagnostic Penlight - Reusable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 51.68,
+        "marketPrice": 59.43,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0092",
+        "productDescription": "Otoscope Speculum - Reusable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 54.92,
+        "marketPrice": 64.53,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0093",
+        "productDescription": "Ultrasound Gel - Reusable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 58.16,
+        "marketPrice": 69.79,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0094",
+        "productDescription": "Ultrasound Probe Cover - Reusable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 61.39,
+        "marketPrice": 75.2,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0095",
+        "productDescription": "Patient Monitor Cable - Reusable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 64.63,
+        "marketPrice": 80.79,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0096",
+        "productDescription": "Capnography Sampling Line - Reusable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 67.87,
+        "marketPrice": 78.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0097",
+        "productDescription": "EEG Electrode - Reusable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 71.11,
+        "marketPrice": 83.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0098",
+        "productDescription": "ECG Paper Roll - Reusable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 74.34,
+        "marketPrice": 89.21,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0099",
+        "productDescription": "Thermal Printer Paper - Reusable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 77.58,
+        "marketPrice": 95.04,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0100",
+        "productDescription": "Medical Battery Pack - Reusable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 80.82,
+        "marketPrice": 101.02,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0101",
+        "productDescription": "Digital Thermometer - Disposable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 20.95,
+        "marketPrice": 24.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0102",
+        "productDescription": "Pulse Oximeter Sensor - Disposable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 24.47,
+        "marketPrice": 28.75,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0103",
+        "productDescription": "ECG Electrode Pad - Disposable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 27.98,
+        "marketPrice": 33.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0104",
+        "productDescription": "ECG Lead Wire - Disposable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 31.5,
+        "marketPrice": 38.59,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0105",
+        "productDescription": "Blood Pressure Cuff - Disposable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 35.01,
+        "marketPrice": 43.76,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0106",
+        "productDescription": "Stethoscope Diaphragm Kit - Disposable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 38.53,
+        "marketPrice": 44.31,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0107",
+        "productDescription": "Spirometer Mouthpiece - Disposable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 42.04,
+        "marketPrice": 49.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0108",
+        "productDescription": "Peak Flow Meter - Disposable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 45.56,
+        "marketPrice": 54.67,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0109",
+        "productDescription": "Glucometer Test Strip - Disposable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 49.07,
+        "marketPrice": 60.11,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0110",
+        "productDescription": "Lancet Device - Disposable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 52.59,
+        "marketPrice": 65.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0111",
+        "productDescription": "Diagnostic Penlight - Disposable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 56.1,
+        "marketPrice": 64.52,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0112",
+        "productDescription": "Otoscope Speculum - Disposable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 59.61,
+        "marketPrice": 70.04,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0113",
+        "productDescription": "Ultrasound Gel - Disposable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 63.13,
+        "marketPrice": 75.76,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0114",
+        "productDescription": "Ultrasound Probe Cover - Disposable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 66.64,
+        "marketPrice": 81.63,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0115",
+        "productDescription": "Patient Monitor Cable - Disposable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 70.16,
+        "marketPrice": 87.7,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0116",
+        "productDescription": "Capnography Sampling Line - Disposable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 73.67,
+        "marketPrice": 84.72,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0117",
+        "productDescription": "EEG Electrode - Disposable",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 77.19,
+        "marketPrice": 90.7,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0118",
+        "productDescription": "ECG Paper Roll - Disposable",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 80.7,
+        "marketPrice": 96.84,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0119",
+        "productDescription": "Thermal Printer Paper - Disposable",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 84.22,
+        "marketPrice": 103.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T3-0120",
+        "productDescription": "Medical Battery Pack - Disposable",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 87.73,
+        "marketPrice": 109.66,
+        "currency": "$"
+      }
+    ],
+    "Tire4": [
+      {
+        "productCode": "ABC-MED-T4-0001",
+        "productDescription": "Surgical Scissors - Straight",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 16.2,
+        "marketPrice": 18.63,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0002",
+        "productDescription": "Hemostatic Forceps - Straight",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 18.33,
+        "marketPrice": 21.54,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0003",
+        "productDescription": "Tissue Forceps - Straight",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 20.46,
+        "marketPrice": 24.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0004",
+        "productDescription": "Needle Holder - Straight",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 22.59,
+        "marketPrice": 27.67,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0005",
+        "productDescription": "Scalpel Handle - Straight",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 24.72,
+        "marketPrice": 30.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0006",
+        "productDescription": "Sterile Scalpel Blade - Straight",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 26.85,
+        "marketPrice": 30.88,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0007",
+        "productDescription": "Retractor Instrument - Straight",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 28.98,
+        "marketPrice": 34.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0008",
+        "productDescription": "Suture Removal Kit - Straight",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 31.11,
+        "marketPrice": 37.33,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0009",
+        "productDescription": "Sterile Suture Pack - Straight",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 33.24,
+        "marketPrice": 40.72,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0010",
+        "productDescription": "Laparoscopic Grasper - Straight",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 35.37,
+        "marketPrice": 44.21,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0011",
+        "productDescription": "Trocar Cannula - Straight",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 37.5,
+        "marketPrice": 43.12,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0012",
+        "productDescription": "Surgical Suction Tip - Straight",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 39.63,
+        "marketPrice": 46.57,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0013",
+        "productDescription": "Electrosurgical Pencil - Straight",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 41.76,
+        "marketPrice": 50.11,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0014",
+        "productDescription": "Electrosurgical Return Pad - Straight",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 43.89,
+        "marketPrice": 53.77,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0015",
+        "productDescription": "Operating Room Sponge - Straight",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 46.02,
+        "marketPrice": 57.53,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0016",
+        "productDescription": "Instrument Sterilization Pouch - Straight",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 48.15,
+        "marketPrice": 55.37,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0017",
+        "productDescription": "Sterilization Indicator Strip - Straight",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 50.28,
+        "marketPrice": 59.08,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0018",
+        "productDescription": "Surgical Instrument Tray - Straight",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 52.41,
+        "marketPrice": 62.89,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0019",
+        "productDescription": "Bone Rongeur - Straight",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 54.54,
+        "marketPrice": 66.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0020",
+        "productDescription": "Orthopedic Drill Bit - Straight",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 56.67,
+        "marketPrice": 70.84,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0021",
+        "productDescription": "Surgical Scissors - Curved",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 18.31,
+        "marketPrice": 21.06,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0022",
+        "productDescription": "Hemostatic Forceps - Curved",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 20.71,
+        "marketPrice": 24.33,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0023",
+        "productDescription": "Tissue Forceps - Curved",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 23.12,
+        "marketPrice": 27.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0024",
+        "productDescription": "Needle Holder - Curved",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 25.53,
+        "marketPrice": 31.27,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0025",
+        "productDescription": "Scalpel Handle - Curved",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 27.93,
+        "marketPrice": 34.91,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0026",
+        "productDescription": "Sterile Scalpel Blade - Curved",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 30.34,
+        "marketPrice": 34.89,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0027",
+        "productDescription": "Retractor Instrument - Curved",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 32.75,
+        "marketPrice": 38.48,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0028",
+        "productDescription": "Suture Removal Kit - Curved",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 35.15,
+        "marketPrice": 42.18,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0029",
+        "productDescription": "Sterile Suture Pack - Curved",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 37.56,
+        "marketPrice": 46.01,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0030",
+        "productDescription": "Laparoscopic Grasper - Curved",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 39.97,
+        "marketPrice": 49.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0031",
+        "productDescription": "Trocar Cannula - Curved",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 42.37,
+        "marketPrice": 48.73,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0032",
+        "productDescription": "Surgical Suction Tip - Curved",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 44.78,
+        "marketPrice": 52.62,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0033",
+        "productDescription": "Electrosurgical Pencil - Curved",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 47.19,
+        "marketPrice": 56.63,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0034",
+        "productDescription": "Electrosurgical Return Pad - Curved",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 49.6,
+        "marketPrice": 60.76,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0035",
+        "productDescription": "Operating Room Sponge - Curved",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 52.0,
+        "marketPrice": 65.0,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0036",
+        "productDescription": "Instrument Sterilization Pouch - Curved",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 54.41,
+        "marketPrice": 62.57,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0037",
+        "productDescription": "Sterilization Indicator Strip - Curved",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 56.82,
+        "marketPrice": 66.76,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0038",
+        "productDescription": "Surgical Instrument Tray - Curved",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 59.22,
+        "marketPrice": 71.06,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0039",
+        "productDescription": "Bone Rongeur - Curved",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 61.63,
+        "marketPrice": 75.5,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0040",
+        "productDescription": "Orthopedic Drill Bit - Curved",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 64.04,
+        "marketPrice": 80.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0041",
+        "productDescription": "Surgical Scissors - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 20.41,
+        "marketPrice": 23.47,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0042",
+        "productDescription": "Hemostatic Forceps - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 23.1,
+        "marketPrice": 27.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0043",
+        "productDescription": "Tissue Forceps - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 25.78,
+        "marketPrice": 30.94,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0044",
+        "productDescription": "Needle Holder - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 28.46,
+        "marketPrice": 34.86,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0045",
+        "productDescription": "Scalpel Handle - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 31.15,
+        "marketPrice": 38.94,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0046",
+        "productDescription": "Sterile Scalpel Blade - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 33.83,
+        "marketPrice": 38.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0047",
+        "productDescription": "Retractor Instrument - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 36.51,
+        "marketPrice": 42.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0048",
+        "productDescription": "Suture Removal Kit - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 39.2,
+        "marketPrice": 47.04,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0049",
+        "productDescription": "Sterile Suture Pack - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 41.88,
+        "marketPrice": 51.3,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0050",
+        "productDescription": "Laparoscopic Grasper - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 44.57,
+        "marketPrice": 55.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0051",
+        "productDescription": "Trocar Cannula - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 47.25,
+        "marketPrice": 54.34,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0052",
+        "productDescription": "Surgical Suction Tip - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 49.93,
+        "marketPrice": 58.67,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0053",
+        "productDescription": "Electrosurgical Pencil - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 52.62,
+        "marketPrice": 63.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0054",
+        "productDescription": "Electrosurgical Return Pad - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 55.3,
+        "marketPrice": 67.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0055",
+        "productDescription": "Operating Room Sponge - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 57.99,
+        "marketPrice": 72.49,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0056",
+        "productDescription": "Instrument Sterilization Pouch - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 60.67,
+        "marketPrice": 69.77,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0057",
+        "productDescription": "Sterilization Indicator Strip - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 63.35,
+        "marketPrice": 74.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0058",
+        "productDescription": "Surgical Instrument Tray - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 66.04,
+        "marketPrice": 79.25,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0059",
+        "productDescription": "Bone Rongeur - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 68.72,
+        "marketPrice": 84.18,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0060",
+        "productDescription": "Orthopedic Drill Bit - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 71.4,
+        "marketPrice": 89.25,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0061",
+        "productDescription": "Surgical Scissors - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 22.52,
+        "marketPrice": 25.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0062",
+        "productDescription": "Hemostatic Forceps - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 25.48,
+        "marketPrice": 29.94,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0063",
+        "productDescription": "Tissue Forceps - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 28.44,
+        "marketPrice": 34.13,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0064",
+        "productDescription": "Needle Holder - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 31.4,
+        "marketPrice": 38.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0065",
+        "productDescription": "Scalpel Handle - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 34.36,
+        "marketPrice": 42.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0066",
+        "productDescription": "Sterile Scalpel Blade - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 37.32,
+        "marketPrice": 42.92,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0067",
+        "productDescription": "Retractor Instrument - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 40.28,
+        "marketPrice": 47.33,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0068",
+        "productDescription": "Suture Removal Kit - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 43.24,
+        "marketPrice": 51.89,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0069",
+        "productDescription": "Sterile Suture Pack - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 46.2,
+        "marketPrice": 56.59,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0070",
+        "productDescription": "Laparoscopic Grasper - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 49.16,
+        "marketPrice": 61.45,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0071",
+        "productDescription": "Trocar Cannula - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 52.13,
+        "marketPrice": 59.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0072",
+        "productDescription": "Surgical Suction Tip - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 55.09,
+        "marketPrice": 64.73,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0073",
+        "productDescription": "Electrosurgical Pencil - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 58.05,
+        "marketPrice": 69.66,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0074",
+        "productDescription": "Electrosurgical Return Pad - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 61.01,
+        "marketPrice": 74.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0075",
+        "productDescription": "Operating Room Sponge - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 63.97,
+        "marketPrice": 79.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0076",
+        "productDescription": "Instrument Sterilization Pouch - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 66.93,
+        "marketPrice": 76.97,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0077",
+        "productDescription": "Sterilization Indicator Strip - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 69.89,
+        "marketPrice": 82.12,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0078",
+        "productDescription": "Surgical Instrument Tray - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 72.85,
+        "marketPrice": 87.42,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0079",
+        "productDescription": "Bone Rongeur - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 75.81,
+        "marketPrice": 92.87,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0080",
+        "productDescription": "Orthopedic Drill Bit - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 78.77,
+        "marketPrice": 98.46,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0081",
+        "productDescription": "Surgical Scissors - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 24.62,
+        "marketPrice": 28.31,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0082",
+        "productDescription": "Hemostatic Forceps - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 27.86,
+        "marketPrice": 32.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0083",
+        "productDescription": "Tissue Forceps - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 31.1,
+        "marketPrice": 37.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0084",
+        "productDescription": "Needle Holder - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 34.34,
+        "marketPrice": 42.07,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0085",
+        "productDescription": "Scalpel Handle - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 37.57,
+        "marketPrice": 46.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0086",
+        "productDescription": "Sterile Scalpel Blade - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 40.81,
+        "marketPrice": 46.93,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0087",
+        "productDescription": "Retractor Instrument - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 44.05,
+        "marketPrice": 51.76,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0088",
+        "productDescription": "Suture Removal Kit - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 47.29,
+        "marketPrice": 56.75,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0089",
+        "productDescription": "Sterile Suture Pack - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 50.52,
+        "marketPrice": 61.89,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0090",
+        "productDescription": "Laparoscopic Grasper - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 53.76,
+        "marketPrice": 67.2,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0091",
+        "productDescription": "Trocar Cannula - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 57.0,
+        "marketPrice": 65.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0092",
+        "productDescription": "Surgical Suction Tip - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 60.24,
+        "marketPrice": 70.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0093",
+        "productDescription": "Electrosurgical Pencil - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 63.48,
+        "marketPrice": 76.18,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0094",
+        "productDescription": "Electrosurgical Return Pad - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 66.71,
+        "marketPrice": 81.72,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0095",
+        "productDescription": "Operating Room Sponge - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 69.95,
+        "marketPrice": 87.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0096",
+        "productDescription": "Instrument Sterilization Pouch - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 73.19,
+        "marketPrice": 84.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0097",
+        "productDescription": "Sterilization Indicator Strip - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 76.43,
+        "marketPrice": 89.81,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0098",
+        "productDescription": "Surgical Instrument Tray - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 79.66,
+        "marketPrice": 95.59,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0099",
+        "productDescription": "Bone Rongeur - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 82.9,
+        "marketPrice": 101.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0100",
+        "productDescription": "Orthopedic Drill Bit - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 86.14,
+        "marketPrice": 107.67,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0101",
+        "productDescription": "Surgical Scissors - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 26.73,
+        "marketPrice": 30.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0102",
+        "productDescription": "Hemostatic Forceps - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 30.24,
+        "marketPrice": 35.53,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0103",
+        "productDescription": "Tissue Forceps - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 33.76,
+        "marketPrice": 40.51,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0104",
+        "productDescription": "Needle Holder - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 37.27,
+        "marketPrice": 45.66,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0105",
+        "productDescription": "Scalpel Handle - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 40.79,
+        "marketPrice": 50.99,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0106",
+        "productDescription": "Sterile Scalpel Blade - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 44.3,
+        "marketPrice": 50.94,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0107",
+        "productDescription": "Retractor Instrument - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 47.82,
+        "marketPrice": 56.19,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0108",
+        "productDescription": "Suture Removal Kit - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 51.33,
+        "marketPrice": 61.6,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0109",
+        "productDescription": "Sterile Suture Pack - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 54.85,
+        "marketPrice": 67.19,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0110",
+        "productDescription": "Laparoscopic Grasper - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 58.36,
+        "marketPrice": 72.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0111",
+        "productDescription": "Trocar Cannula - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 61.88,
+        "marketPrice": 71.16,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0112",
+        "productDescription": "Surgical Suction Tip - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 65.39,
+        "marketPrice": 76.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0113",
+        "productDescription": "Electrosurgical Pencil - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 68.9,
+        "marketPrice": 82.68,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0114",
+        "productDescription": "Electrosurgical Return Pad - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 72.42,
+        "marketPrice": 88.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0115",
+        "productDescription": "Operating Room Sponge - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 75.93,
+        "marketPrice": 94.91,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0116",
+        "productDescription": "Instrument Sterilization Pouch - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 79.45,
+        "marketPrice": 91.37,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0117",
+        "productDescription": "Sterilization Indicator Strip - Standard",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 82.96,
+        "marketPrice": 97.48,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0118",
+        "productDescription": "Surgical Instrument Tray - Standard",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 86.48,
+        "marketPrice": 103.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0119",
+        "productDescription": "Bone Rongeur - Standard",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 89.99,
+        "marketPrice": 110.24,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T4-0120",
+        "productDescription": "Orthopedic Drill Bit - Standard",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 93.51,
+        "marketPrice": 116.89,
+        "currency": "$"
+      }
+    ],
+    "Tire5": [
+      {
+        "productCode": "ABC-MED-T5-0001",
+        "productDescription": "Ventilator Breathing Circuit - Neonatal",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 19.7,
+        "marketPrice": 22.65,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0002",
+        "productDescription": "Bacterial Viral Filter - Neonatal",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 21.83,
+        "marketPrice": 25.65,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0003",
+        "productDescription": "HME Breathing Filter - Neonatal",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 23.96,
+        "marketPrice": 28.75,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0004",
+        "productDescription": "CPAP Mask - Neonatal",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 26.09,
+        "marketPrice": 31.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0005",
+        "productDescription": "BiPAP Tubing - Neonatal",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 28.22,
+        "marketPrice": 35.27,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0006",
+        "productDescription": "Anesthesia Breathing Bag - Neonatal",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 30.35,
+        "marketPrice": 34.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0007",
+        "productDescription": "Endotracheal Tube - Neonatal",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 32.48,
+        "marketPrice": 38.16,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0008",
+        "productDescription": "Laryngeal Mask Airway - Neonatal",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 34.61,
+        "marketPrice": 41.53,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0009",
+        "productDescription": "Resuscitation Bag - Neonatal",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 36.74,
+        "marketPrice": 45.01,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0010",
+        "productDescription": "Defibrillator Electrode Pad - Neonatal",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 38.87,
+        "marketPrice": 48.59,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0011",
+        "productDescription": "Defibrillator Battery - Neonatal",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 41.0,
+        "marketPrice": 47.15,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0012",
+        "productDescription": "Infusion Pump Tubing - Neonatal",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 43.13,
+        "marketPrice": 50.68,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0013",
+        "productDescription": "Syringe Pump Extension - Neonatal",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 45.26,
+        "marketPrice": 54.31,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0014",
+        "productDescription": "Patient Warming Blanket - Neonatal",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 47.39,
+        "marketPrice": 58.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0015",
+        "productDescription": "Pressure Infusion Bag - Neonatal",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 49.52,
+        "marketPrice": 61.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0016",
+        "productDescription": "ECG Trunk Cable - Neonatal",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 51.65,
+        "marketPrice": 59.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0017",
+        "productDescription": "Medical Oxygen Regulator - Neonatal",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 53.78,
+        "marketPrice": 63.19,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0018",
+        "productDescription": "Humidifier Chamber - Neonatal",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 55.91,
+        "marketPrice": 67.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0019",
+        "productDescription": "Suction Canister - Neonatal",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 58.04,
+        "marketPrice": 71.1,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0020",
+        "productDescription": "Emergency Airway Kit - Neonatal",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 60.17,
+        "marketPrice": 75.21,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0021",
+        "productDescription": "Ventilator Breathing Circuit - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 22.26,
+        "marketPrice": 25.6,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0022",
+        "productDescription": "Bacterial Viral Filter - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 24.67,
+        "marketPrice": 28.99,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0023",
+        "productDescription": "HME Breathing Filter - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 27.07,
+        "marketPrice": 32.48,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0024",
+        "productDescription": "CPAP Mask - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 29.48,
+        "marketPrice": 36.11,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0025",
+        "productDescription": "BiPAP Tubing - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 31.89,
+        "marketPrice": 39.86,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0026",
+        "productDescription": "Anesthesia Breathing Bag - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 34.3,
+        "marketPrice": 39.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0027",
+        "productDescription": "Endotracheal Tube - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 36.7,
+        "marketPrice": 43.12,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0028",
+        "productDescription": "Laryngeal Mask Airway - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 39.11,
+        "marketPrice": 46.93,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0029",
+        "productDescription": "Resuscitation Bag - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 41.52,
+        "marketPrice": 50.86,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0030",
+        "productDescription": "Defibrillator Electrode Pad - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 43.92,
+        "marketPrice": 54.9,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0031",
+        "productDescription": "Defibrillator Battery - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 46.33,
+        "marketPrice": 53.28,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0032",
+        "productDescription": "Infusion Pump Tubing - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 48.74,
+        "marketPrice": 57.27,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0033",
+        "productDescription": "Syringe Pump Extension - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 51.14,
+        "marketPrice": 61.37,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0034",
+        "productDescription": "Patient Warming Blanket - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 53.55,
+        "marketPrice": 65.6,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0035",
+        "productDescription": "Pressure Infusion Bag - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 55.96,
+        "marketPrice": 69.95,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0036",
+        "productDescription": "ECG Trunk Cable - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 58.36,
+        "marketPrice": 67.11,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0037",
+        "productDescription": "Medical Oxygen Regulator - Pediatric",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 60.77,
+        "marketPrice": 71.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0038",
+        "productDescription": "Humidifier Chamber - Pediatric",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 63.18,
+        "marketPrice": 75.82,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0039",
+        "productDescription": "Suction Canister - Pediatric",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 65.59,
+        "marketPrice": 80.35,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0040",
+        "productDescription": "Emergency Airway Kit - Pediatric",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 67.99,
+        "marketPrice": 84.99,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0041",
+        "productDescription": "Ventilator Breathing Circuit - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 24.82,
+        "marketPrice": 28.54,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0042",
+        "productDescription": "Bacterial Viral Filter - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 27.51,
+        "marketPrice": 32.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0043",
+        "productDescription": "HME Breathing Filter - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 30.19,
+        "marketPrice": 36.23,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0044",
+        "productDescription": "CPAP Mask - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 32.87,
+        "marketPrice": 40.27,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0045",
+        "productDescription": "BiPAP Tubing - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 35.56,
+        "marketPrice": 44.45,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0046",
+        "productDescription": "Anesthesia Breathing Bag - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 38.24,
+        "marketPrice": 43.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0047",
+        "productDescription": "Endotracheal Tube - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 40.92,
+        "marketPrice": 48.08,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0048",
+        "productDescription": "Laryngeal Mask Airway - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 43.61,
+        "marketPrice": 52.33,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0049",
+        "productDescription": "Resuscitation Bag - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 46.29,
+        "marketPrice": 56.71,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0050",
+        "productDescription": "Defibrillator Electrode Pad - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 48.98,
+        "marketPrice": 61.22,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0051",
+        "productDescription": "Defibrillator Battery - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 51.66,
+        "marketPrice": 59.41,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0052",
+        "productDescription": "Infusion Pump Tubing - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 54.34,
+        "marketPrice": 63.85,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0053",
+        "productDescription": "Syringe Pump Extension - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 57.03,
+        "marketPrice": 68.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0054",
+        "productDescription": "Patient Warming Blanket - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 59.71,
+        "marketPrice": 73.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0055",
+        "productDescription": "Pressure Infusion Bag - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 62.4,
+        "marketPrice": 78.0,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0056",
+        "productDescription": "ECG Trunk Cable - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 65.08,
+        "marketPrice": 74.84,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0057",
+        "productDescription": "Medical Oxygen Regulator - Adult",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 67.76,
+        "marketPrice": 79.62,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0058",
+        "productDescription": "Humidifier Chamber - Adult",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 70.45,
+        "marketPrice": 84.54,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0059",
+        "productDescription": "Suction Canister - Adult",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 73.13,
+        "marketPrice": 89.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0060",
+        "productDescription": "Emergency Airway Kit - Adult",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 75.81,
+        "marketPrice": 94.76,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0061",
+        "productDescription": "Ventilator Breathing Circuit - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 27.38,
+        "marketPrice": 31.49,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0062",
+        "productDescription": "Bacterial Viral Filter - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 30.34,
+        "marketPrice": 35.65,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0063",
+        "productDescription": "HME Breathing Filter - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 33.3,
+        "marketPrice": 39.96,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0064",
+        "productDescription": "CPAP Mask - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 36.27,
+        "marketPrice": 44.43,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0065",
+        "productDescription": "BiPAP Tubing - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 39.23,
+        "marketPrice": 49.04,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0066",
+        "productDescription": "Anesthesia Breathing Bag - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 42.19,
+        "marketPrice": 48.52,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0067",
+        "productDescription": "Endotracheal Tube - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 45.15,
+        "marketPrice": 53.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0068",
+        "productDescription": "Laryngeal Mask Airway - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 48.11,
+        "marketPrice": 57.73,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0069",
+        "productDescription": "Resuscitation Bag - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 51.07,
+        "marketPrice": 62.56,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0070",
+        "productDescription": "Defibrillator Electrode Pad - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 54.03,
+        "marketPrice": 67.54,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0071",
+        "productDescription": "Defibrillator Battery - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 56.99,
+        "marketPrice": 65.54,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0072",
+        "productDescription": "Infusion Pump Tubing - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 59.95,
+        "marketPrice": 70.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0073",
+        "productDescription": "Syringe Pump Extension - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 62.91,
+        "marketPrice": 75.49,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0074",
+        "productDescription": "Patient Warming Blanket - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 65.87,
+        "marketPrice": 80.69,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0075",
+        "productDescription": "Pressure Infusion Bag - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 68.83,
+        "marketPrice": 86.04,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0076",
+        "productDescription": "ECG Trunk Cable - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 71.79,
+        "marketPrice": 82.56,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0077",
+        "productDescription": "Medical Oxygen Regulator - Small",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 74.75,
+        "marketPrice": 87.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0078",
+        "productDescription": "Humidifier Chamber - Small",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 77.71,
+        "marketPrice": 93.25,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0079",
+        "productDescription": "Suction Canister - Small",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 80.68,
+        "marketPrice": 98.83,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0080",
+        "productDescription": "Emergency Airway Kit - Small",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 83.64,
+        "marketPrice": 104.55,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0081",
+        "productDescription": "Ventilator Breathing Circuit - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 29.94,
+        "marketPrice": 34.43,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0082",
+        "productDescription": "Bacterial Viral Filter - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 33.18,
+        "marketPrice": 38.99,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0083",
+        "productDescription": "HME Breathing Filter - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 36.42,
+        "marketPrice": 43.7,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0084",
+        "productDescription": "CPAP Mask - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 39.66,
+        "marketPrice": 48.58,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0085",
+        "productDescription": "BiPAP Tubing - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 42.89,
+        "marketPrice": 53.61,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0086",
+        "productDescription": "Anesthesia Breathing Bag - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 46.13,
+        "marketPrice": 53.05,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0087",
+        "productDescription": "Endotracheal Tube - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 49.37,
+        "marketPrice": 58.01,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0088",
+        "productDescription": "Laryngeal Mask Airway - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 52.61,
+        "marketPrice": 63.13,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0089",
+        "productDescription": "Resuscitation Bag - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 55.84,
+        "marketPrice": 68.4,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0090",
+        "productDescription": "Defibrillator Electrode Pad - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 59.08,
+        "marketPrice": 73.85,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0091",
+        "productDescription": "Defibrillator Battery - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 62.32,
+        "marketPrice": 71.67,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0092",
+        "productDescription": "Infusion Pump Tubing - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 65.56,
+        "marketPrice": 77.03,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0093",
+        "productDescription": "Syringe Pump Extension - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 68.8,
+        "marketPrice": 82.56,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0094",
+        "productDescription": "Patient Warming Blanket - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 72.03,
+        "marketPrice": 88.24,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0095",
+        "productDescription": "Pressure Infusion Bag - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 75.27,
+        "marketPrice": 94.09,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0096",
+        "productDescription": "ECG Trunk Cable - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 78.51,
+        "marketPrice": 90.29,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0097",
+        "productDescription": "Medical Oxygen Regulator - Medium",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 81.75,
+        "marketPrice": 96.06,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0098",
+        "productDescription": "Humidifier Chamber - Medium",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 84.98,
+        "marketPrice": 101.98,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0099",
+        "productDescription": "Suction Canister - Medium",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 88.22,
+        "marketPrice": 108.07,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0100",
+        "productDescription": "Emergency Airway Kit - Medium",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 91.46,
+        "marketPrice": 114.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0101",
+        "productDescription": "Ventilator Breathing Circuit - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 32.5,
+        "marketPrice": 37.38,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0102",
+        "productDescription": "Bacterial Viral Filter - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 36.02,
+        "marketPrice": 42.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0103",
+        "productDescription": "HME Breathing Filter - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 39.53,
+        "marketPrice": 47.44,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0104",
+        "productDescription": "CPAP Mask - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 43.05,
+        "marketPrice": 52.74,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0105",
+        "productDescription": "BiPAP Tubing - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 46.56,
+        "marketPrice": 58.2,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0106",
+        "productDescription": "Anesthesia Breathing Bag - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 50.08,
+        "marketPrice": 57.59,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0107",
+        "productDescription": "Endotracheal Tube - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 53.59,
+        "marketPrice": 62.97,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0108",
+        "productDescription": "Laryngeal Mask Airway - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 57.11,
+        "marketPrice": 68.53,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0109",
+        "productDescription": "Resuscitation Bag - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 60.62,
+        "marketPrice": 74.26,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0110",
+        "productDescription": "Defibrillator Electrode Pad - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 64.14,
+        "marketPrice": 80.17,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0111",
+        "productDescription": "Defibrillator Battery - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 67.65,
+        "marketPrice": 77.8,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0112",
+        "productDescription": "Infusion Pump Tubing - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 71.16,
+        "marketPrice": 83.61,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0113",
+        "productDescription": "Syringe Pump Extension - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 74.68,
+        "marketPrice": 89.62,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0114",
+        "productDescription": "Patient Warming Blanket - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 78.19,
+        "marketPrice": 95.78,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0115",
+        "productDescription": "Pressure Infusion Bag - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 81.71,
+        "marketPrice": 102.14,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0116",
+        "productDescription": "ECG Trunk Cable - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 85.22,
+        "marketPrice": 98.0,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0117",
+        "productDescription": "Medical Oxygen Regulator - Large",
+        "eaUom": "EA",
+        "uom": "BOX",
+        "eaPrice": 88.74,
+        "marketPrice": 104.27,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0118",
+        "productDescription": "Humidifier Chamber - Large",
+        "eaUom": "EA",
+        "uom": "PACK",
+        "eaPrice": 92.25,
+        "marketPrice": 110.7,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0119",
+        "productDescription": "Suction Canister - Large",
+        "eaUom": "EA",
+        "uom": "EACH",
+        "eaPrice": 95.77,
+        "marketPrice": 117.32,
+        "currency": "$"
+      },
+      {
+        "productCode": "ABC-MED-T5-0120",
+        "productDescription": "Emergency Airway Kit - Large",
+        "eaUom": "EA",
+        "uom": "CASE",
+        "eaPrice": 99.28,
+        "marketPrice": 124.1,
+        "currency": "$"
+      }
+    ]
+  }
+}

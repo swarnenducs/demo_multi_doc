@@ -1,0 +1,27 @@
+{
+  "invoice_number": "INV-2026-0042",
+  "invoice_date": "2026-07-10",
+  "customer": {
+    "name": "Acme Corporation",
+    "address": "12 Market Street, London, UK",
+    "email": "billing@acme.example"
+  },
+  "items": [
+    {
+      "description": "LangGraph consulting",
+      "quantity": 10,
+      "unit_price": 150.0,
+      "total": 1500.0
+    },
+    {
+      "description": "Document automation setup",
+      "quantity": 1,
+      "unit_price": 900.0,
+      "total": 900.0
+    }
+  ],
+  "subtotal": 2400.0,
+  "tax": 480.0,
+  "total_amount": 2880.0,
+  "notes": "Payment due within 30 days. Thank you for your business."
+}

@@ -1,0 +1,79 @@
+{
+  "legal_entities": [
+    {
+      "code": "AVC",
+      "legalName": "AVC Trading Limited",
+      "address": "12 Harbor Road, #08-01 Marina Hub",
+      "city": "Singapore",
+      "country": "Singapore",
+      "postalCode": "018956",
+      "email": "legal@avc.example",
+      "phone": "+65-6000-3377",
+      "registrationNumber": "UEN-201912345A"
+    },
+    {
+      "code": "ACME",
+      "legalName": "Acme Industrial Partners LLC",
+      "address": "500 Industrial Parkway",
+      "city": "Houston",
+      "country": "USA",
+      "postalCode": "77002",
+      "email": "contracts@acme-industrial.example",
+      "phone": "+1-555-0100",
+      "registrationNumber": "TX-998877"
+    }
+  ],
+  "pricelists": [
+    {
+      "contractReferenceNumber": "CR-1001",
+      "legalEntityCode": "AVC",
+      "currency": "USD",
+      "effectiveDate": "2026-07-01",
+      "products": [
+        {
+          "productCode": "AVC-1001",
+          "productDescription": "Industrial Grade Steel Bolt 10mm",
+          "uom": "BOX",
+          "unitPrice": "1.25",
+          "marketPrice": "1.50"
+        },
+        {
+          "productCode": "AVC-1002",
+          "productDescription": "Stainless Steel Washer 8mm",
+          "uom": "BOX",
+          "unitPrice": "0.35",
+          "marketPrice": "0.45"
+        },
+        {
+          "productCode": "AVC-1003",
+          "productDescription": "Heavy Duty Hex Nut 12mm",
+          "uom": "CASE",
+          "unitPrice": "0.60",
+          "marketPrice": "0.75"
+        }
+      ]
+    },
+    {
+      "contractReferenceNumber": "CR-2002",
+      "legalEntityCode": "ACME",
+      "currency": "USD",
+      "effectiveDate": "2026-07-01",
+      "products": [
+        {
+          "productCode": "ABC-1001",
+          "productDescription": "Industrial Grade Steel Bolt 10mm",
+          "uom": "BOX",
+          "unitPrice": "1.25",
+          "marketPrice": "1.50"
+        },
+        {
+          "productCode": "ABC-1004",
+          "productDescription": "Galvanized Steel Pipe 2 inch",
+          "uom": "EACH",
+          "unitPrice": "14.99",
+          "marketPrice": "17.50"
+        }
+      ]
+    }
+  ]
+}

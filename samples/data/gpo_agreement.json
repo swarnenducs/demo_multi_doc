@@ -1,0 +1,202 @@
+{
+  "source_context": {
+    "agreement_number": "1234567890",
+    "template_name": "GPO Agreement w. LOC",
+    "generated_date": "2026-07-13"
+  },
+  "system_instruction": {
+    "legal_notice_block": {
+      "override": false,
+      "placeholder": "Legal_Department_Master_Data",
+      "value": "Legal Department\n200 Connell Drive, Suite 1000\nBerkeley Heights, NJ 07922\nE-mail: pmo@ABCTec.com"
+    },
+    "sales_notice_block": {
+      "override": false,
+      "placeholder": "Sales_Excellence_Master_Data",
+      "value": "Sales Excellence\n200 Connell Drive, Suite 1000\nBerkeley Heights, NJ 07922\nE-mail: pmo@ABCTec.com"
+    }
+  },
+  "agreement": {
+    "gpo_name": "Acme Industrial Partners LLC",
+    "gpo_address": "1200 Commerce Plaza, Chicago, IL 60601",
+    "idn_name": "ACM-MCC",
+    "effective_date": "2026-09-01",
+    "signature_deadline_date": "2026-12-31",
+    "initial_term_years": 3,
+    "administrative_fee_percent": 3.0,
+    "include_sole_commitment_clause": true,
+    "sole_commitment_percent": 93
+  },
+  "gpo_notice_contact": {
+    "attn": "John Anderson",
+    "address": "1200 Commerce Plaza, Chicago, IL 60601",
+    "fax": "312-555-1001",
+    "email": "contracts@acmepartners.com"
+  },
+  "gpo_signatory": {
+    "name": "John Anderson",
+    "title": "Vice President Strategic Sourcing",
+    "date": "2026-08-15"
+  },
+  "abctec_legal_entity": {
+    "legal_name": "ABCTec Inc.",
+    "address": "200 Connell Drive, Suite 1000, Berkeley Heights, NJ 07922",
+    "notice_email": "pnc@abctec.com"
+  },
+  "authorized_distributors": [
+    {
+      "name": "ABC Medical Distribution"
+    },
+    {
+      "name": "National Healthcare Supplies"
+    }
+  ],
+  "products": [
+    {
+      "productCode": "ABC-1001",
+      "productDescription": "Industrial Grade Steel Bolt 10mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": 1.25,
+      "marketPrice": 1.5,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1002",
+      "productDescription": "Stainless Steel Washer 8mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": 0.35,
+      "marketPrice": 0.45,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1003",
+      "productDescription": "Heavy Duty Hex Nut 12mm",
+      "eaUom": "EA",
+      "uom": "CASE",
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1004",
+      "productDescription": "Galvanized Steel Pipe 2 inch",
+      "eaUom": "EA",
+      "uom": "EACH",
+      "eaPrice": 14.99,
+      "marketPrice": 17.5,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1005",
+      "productDescription": "Aluminum Angle Bracket 4 inch",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": 3.2,
+      "marketPrice": 3.85,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1006",
+      "productDescription": "Copper Wire Connector 16 AWG",
+      "eaUom": "EA",
+      "uom": "PACK",
+      "eaPrice": 0.95,
+      "marketPrice": 1.1,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1007",
+      "productDescription": "PVC Pipe Fitting 3 inch Elbow",
+      "eaUom": "EA",
+      "uom": "CASE",
+      "eaPrice": 2.75,
+      "marketPrice": 3.25,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1008",
+      "productDescription": "Rubber Gasket Seal 5mm",
+      "eaUom": "EA",
+      "uom": "BOX",
+      "eaPrice": 0.5,
+      "marketPrice": 0.65,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1009",
+      "productDescription": "Carbon Steel Threaded Rod 1 meter",
+      "eaUom": "EA",
+      "uom": "EACH",
+      "eaPrice": 8.4,
+      "marketPrice": 9.99,
+      "currency": "$"
+    },
+    {
+      "productCode": "ABC-1010",
+      "productDescription": "Brass Fitting Adapter 1 inch",
+      "eaUom": "EA",
+      "uom": "PACK",
+      "eaPrice": 5.6,
+      "marketPrice": 6.75,
+      "currency": "$"
+    }
+  ],
+  "loc": {
+    "include_loc": true,
+    "participating_idn_or_facility_member_name": "Midwest Care Network",
+    "commitment_percent": 93,
+    "member_address": "500 Healthcare Drive",
+    "city_state_zip": "Indianapolis, IN 46204",
+    "entity_code": "MCN001",
+    "signatory": {
+      "name": "Sarah Mitchell",
+      "title": "Director of Supply Chain",
+      "phone_number": "317-555-2121",
+      "email_address": "sarah.mitchell@mcn.org",
+      "date_signed": "2026-08-20"
+    }
+  },
+  "facilities": [
+    {
+      "facility_initials": "MCH",
+      "facility_name": "Midwest Community Hospital",
+      "address": "500 Healthcare Drive",
+      "city": "Indianapolis",
+      "state": "IN",
+      "zip": "46204",
+      "idn_relationship": "Owned",
+      "class_of_trade": "Hospital",
+      "baseline_utilization": "12000 Units",
+      "abcec_customer_number": "CUST10001",
+      "gpo_membership_id": "GPO20001",
+      "entity_code": "MCH001",
+      "abctec_dollar_spend": 450000,
+      "total_category_spend": 500000
+    },
+    {
+      "facility_initials": "RMC",
+      "facility_name": "Regional Medical Center",
+      "address": "100 Medical Parkway",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60615",
+      "idn_relationship": "Managed",
+      "class_of_trade": "Hospital",
+      "baseline_utilization": "8000 Units",
+      "abcec_customer_number": "CUST10002",
+      "gpo_membership_id": "GPO20002",
+      "entity_code": "RMC001",
+      "abctec_dollar_spend": 275000,
+      "total_category_spend": 300000
+    }
+  ],
+  "reference_data": {
+    "cot_definitions": [
+      {
+        "cot_code": "HSP",
+        "class_of_trade_name": "Hospital",
+        "abctec_Definition": "Licensed acute care healthcare facility"
+      }
+    ]
+  }
+}

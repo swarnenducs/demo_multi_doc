@@ -1,0 +1,2 @@
+# UI-only extras (MCP runtime deps live in repo-root requirements.txt)
+gradio>=4.0.0
